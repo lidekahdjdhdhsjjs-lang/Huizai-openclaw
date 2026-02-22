@@ -1,9 +1,9 @@
 #!/bin/bash
 # OpenClaw Auto-Fix - 自动修复 Gateway 故障
-# 当 Gateway 持续失败时由 systemd 调用
+# 使用 Discord Webhook 通知
 
 LOG_FILE="$HOME/.openclaw/logs/auto-fix.log"
-NOTIFY="${OPENCLAW_FIX_TELEGRAM_TARGET:-}"
+DISCORD_WEBHOOK="${DISCORD_WEBHOOK:-}"
 
 log() {
     echo "[$(date)] $1" | tee -a "$LOG_FILE"
@@ -45,17 +45,26 @@ sleep 5
 # 5. 检查状态
 if systemctl --user is-active --quiet openclaw-gateway; then
     log "✅ Gateway restarted successfully"
-    STATUS="FIXED"
+    STATUS="✅ 已修复"
+    COLOR="65280"
 else
     log "❌ Gateway still failing - needs manual intervention"
-    STATUS="NEEDS_HELP"
+    STATUS="❌ 需要人工介入"
+    COLOR="16711680"
 fi
 
-# 通知
-if [ -n "$NOTIFY" ] && command -v curl &> /dev/null; then
-    curl -sS -X POST "https://api.telegram.org/bot$NOTIFY/sendMessage" \
-        -d "chat_id=$NOTIFY" \
-        -d "text=🔧 OpenClaw Auto-Fix: $STATUS"
+# Discord 通知
+if [ -n "$DISCORD_WEBHOOK" ] && command -v curl &> /dev/null; then
+    curl -sS -X POST "$DISCORD_WEBHOOK" \
+        -H "Content-Type: application/json" \
+        -d "{
+            \"embeds\": [{
+                \"title\": \"🔧 OpenClaw 自动修复\",
+                \"description\": \"状态: $STATUS\",
+                \"color\": \"$COLOR\",
+                \"timestamp\": \"$(date -Iseconds)\"
+            }]
+        }"
 fi
 
 log "=== Auto-fix complete ==="

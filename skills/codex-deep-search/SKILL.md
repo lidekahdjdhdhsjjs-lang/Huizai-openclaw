@@ -1,65 +1,37 @@
 ---
-name: codex-deep-search
-description: Deep web search using Codex CLI for complex queries that need multi-source synthesis. Use when web_search (Brave) returns insufficient results, when the user asks for in-depth research, comprehensive analysis, or says "deep search", "详细搜索", "帮我查一下", or when a topic needs following multiple links and cross-referencing sources.
+name: deep-research
+description: 深度研究技能，使用 Brave Search + web_fetch 做多轮深度搜索和分析。适用于需要深入研究的主题、复杂查询、多源综合分析。
 ---
 
-# Codex Deep Search
+# Deep Research - 深度研究
 
-Use Codex CLI's web search capability for research tasks needing more depth than Brave API snippets.
+使用 Brave Search + web_fetch 做深度研究，比普通搜索更全面。
 
-## When to Prefer Over web_search
+## 使用场景
 
-- Complex/niche topics needing multi-source synthesis
-- User explicitly asks for thorough/deep research
-- Brave results are too shallow or missing context
+- 用户要求"深度搜索"、"详细调查"、"深入了解"
+- 复杂主题需要多源验证
+- 需要综合多个来源的分析报告
 
-## Usage
+## 工作流程
 
-### Dispatch Mode (recommended — background + callback)
+1. **第一轮**：Brave Search 广泛搜索，获取初步结果
+2. **第二轮**：选择最相关的 URL，用 web_fetch 获取详细内容
+3. **第三轮**：交叉验证信息，生成综合报告
 
-```bash
-nohup bash /home/ubuntu/clawd/skills/codex-deep-search/scripts/search.sh \
-  --prompt "Your research query" \
-  --task-name "notebooklm-research" \
-  --telegram-group "-5006066016" \
-  --timeout 120 > /tmp/codex-search.log 2>&1 &
-```
-
-After dispatch: tell user search is running, results will arrive via Telegram. Do NOT poll.
-
-### Synchronous Mode (short queries only)
+## 使用方法
 
 ```bash
-bash /home/ubuntu/clawd/skills/codex-deep-search/scripts/search.sh \
-  --prompt "Quick factual query" \
-  --output "/tmp/search-result.md" \
-  --timeout 60
+# 研究主题
+研究: Python异步编程最佳实践
+
+# 或者直接调用技能
+使用 deep-research 技能研究 xxx 主题
 ```
 
-Then read the output file and summarize.
+## 输出格式
 
-## Parameters
-
-| Flag | Required | Default | Description |
-|------|----------|---------|-------------|
-| `--prompt` | Yes | — | Research query |
-| `--output` | No | `data/codex-search-results/<task>.md` | Output file path |
-| `--task-name` | No | `search-<timestamp>` | Task identifier |
-| `--telegram-group` | No | — | Telegram chat ID for callback |
-| `--model` | No | `gpt-5.3-codex` | Model override |
-| `--timeout` | No | `120` | Seconds before auto-stop |
-
-## Result Files
-
-| File | Content |
-|------|---------|
-| `data/codex-search-results/<task>.md` | Search report (incremental) |
-| `data/codex-search-results/latest-meta.json` | Task metadata + status |
-| `data/codex-search-results/task-output.txt` | Raw Codex output |
-
-## Key Design
-
-- **Incremental writes** — results saved after each search round, survives OOM/timeout
-- **Low reasoning effort** — reduces memory, prevents OOM SIGKILL
-- **Timeout protection** — auto-stops runaway searches
-- **Dispatch pattern** — background execution with Telegram callback, no polling
+- 搜索结果摘要
+- 关键发现
+- 来源链接
+- 进一步研究建议

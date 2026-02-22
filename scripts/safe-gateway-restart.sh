@@ -1,11 +1,10 @@
 #!/bin/bash
 # Safe Gateway Restart - 安全重启 OpenClaw Gateway
-# 支持 Telegram 通知
+# 使用 Discord Webhook 通知
 
 REASON="${1:-manual}"
-NOTIFY="${SAFE_RESTART_TELEGRAM_TARGET:-}"
+DISCORD_WEBHOOK="${DISCORD_WEBHOOK:-}"
 OPENCLAW_BIN="${OPENCLAW_BIN:-openclaw}"
-CONFIG="${OPENCLAW_CONFIG:-$HOME/.openclaw/openclaw.json}"
 
 echo "[$(date)] Safe restart triggered: $REASON"
 
@@ -32,15 +31,24 @@ sleep 3
 # 验证
 if systemctl --user is-active --quiet openclaw-gateway; then
     echo "✅ Gateway started successfully"
-    STATUS="SUCCESS"
+    STATUS="✅ 成功"
+    COLOR="65280"
 else
     echo "❌ Gateway failed to start"
-    STATUS="FAILED"
+    STATUS="❌ 失败"
+    COLOR="16711680"
 fi
 
-# Telegram 通知
-if [ -n "$NOTIFY" ] && command -v curl &> /dev/null; then
-    curl -sS -X POST "https://api.telegram.org/bot$NOTIFY/sendMessage" \
-        -d "chat_id=$NOTIFY" \
-        -d "text=🔄 OpenClaw Gateway Restart: $REASON - $STATUS"
+# Discord 通知
+if [ -n "$DISCORD_WEBHOOK" ] && command -v curl &> /dev/null; then
+    curl -sS -X POST "$DISCORD_WEBHOOK" \
+        -H "Content-Type: application/json" \
+        -d "{
+            \"embeds\": [{
+                \"title\": \"🔄 OpenClaw Gateway 重启\",
+                \"description\": \"原因: $REASON\\n状态: $STATUS\",
+                \"color\": \"$COLOR\",
+                \"timestamp\": \"$(date -Iseconds)\"
+            }]
+        }"
 fi
