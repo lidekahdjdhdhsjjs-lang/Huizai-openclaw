@@ -31,6 +31,7 @@
 ## 待办事项
 - 暂无
 
+<<<<<<< Updated upstream
 ## 系统状态 (2026-02-15 20:07)
 - Gateway: 运行中 ✅
 - Discord: 已连接 ✅
@@ -55,3 +56,49 @@
   - ✅ 公司运营 (20:07) - 执行中
 - 运营状态: 正常 ✅
 - 备注: Cron 公司运营执行正常 (20:07)
+=======
+## 系统状态 (2026-02-22 09:43)
+- Gateway: 运行中 ✅
+- Discord: 已连接 ✅
+- WhatsApp: 已连接 ✅
+- Cron Jobs: 运行中
+- Tool Fitness:
+  - write (100%), web_search (100%), process (100%), memory_* (100%) ✅
+  - read (98%), cron (96%), exec (92%) ✅
+  - gateway (86%), edit (86%), web_fetch (82%) ✅
+  - browser (47%) ❌, message (45%) ❌
+- 问题状态:
+  - web_fetch DNS → ✅ 已解决 (使用 curl + 代理)
+  - browser Chromium → ❌ 服务未连接 (需 profile="chrome")
+  - edit 精确匹配 → 🔄 已有 safe-edit 技能
+  - exec SIGTERM (6x) → 🔄 需模型主动增加 timeout 参数
+  - message 参数 → 🔄 已有 message-error-recovery 技能
+  - cron:gateway timeout (5x) → 🔄 需调查网关超时原因
+- 今日活动:
+  - ✅ Foundry 持续学习 - 多轮完成 (20+ crystallized patterns)
+  - ✅ 公司运营检查 (09:43) - 执行中 ✅
+- 运营状态: 正常 ✅
+
+### Recurring Failures 状态 (2026-02-22 09:43)
+- [x] web_fetch DNS - 已解决
+- [x] edit 精确匹配 - safe-edit 技能已存在
+- [x] Gateway 已重启
+- [ ] exec:SIGTERM - 需模型主动增加 timeout 参数
+- [ ] cron:gateway timeout - 需调查网关超时原因
+- [ ] browser:Chrome 不可达 - 需 profile="chrome" 或桌面 relay
+- [ ] message 参数错误 - 已有 recovery 技能
+
+## Foundry 持续学习 (2026-02-18 01:15)
+
+### 工具健康度
+- 主要工具 (write/web_search/process): 100%
+- 中等工具 (read/cron/exec/gateway): 90-98%
+- 待优化工具 (edit/web_fetch): 79-83%
+- 低频问题工具 (message/browser): 43-49%
+
+### 需解决问题
+1. **exec:SIGTERM (6x)** - exec-default-timeout Hook 只提供建议，未实际修改输入
+2. **cron:gateway timeout (4x)** - 需 crystallize pattern
+
+### 已 crystallized: 16 patterns
+>>>>>>> Stashed changes
