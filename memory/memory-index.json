@@ -1,0 +1,31 @@
+# memory-index.json - 记忆索引文件
+
+## 用途
+快速检索记忆文件，避免搜索整个目录
+
+## 自动生成
+每周由 Memory Auto Summary 任务自动更新
+
+## 索引格式
+```json
+{
+  "lastUpdated": "2026-02-18",
+  "files": [
+    {
+      "name": "2026-02-17.md",
+      "type": "daily",
+      "tags": ["foundry", "optimization"],
+      "summary": "..."
+    }
+  ]
+}
+```
+
+## 分类
+- daily: 每日记录
+- learning: 学习笔记
+- company: 公司配置
+- skills: 技能相关
+
+## 快速查找
+使用 memory_search 工具可以语义搜索

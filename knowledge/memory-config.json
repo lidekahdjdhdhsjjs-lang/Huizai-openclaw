@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "updated": "2026-02-17",
+  "semantic_search": {
+    "enabled": true,
+    "provider": "openai",
+    "model": "text-embedding-3-small",
+    "index_file": "knowledge/embeddings.json"
+  },
+  "auto_summary": {
+    "enabled": true,
+    "frequency": "daily",
+    "time": "23:00",
+    "output": "memory/summary-{date}.md",
+    "keep_original": true
+  },
+  "forgetting": {
+    "enabled": true,
+    "memory_ttl": 30,
+    "archive_after": 90,
+    "delete_after": 365,
+    "important_tags": ["important", "permanent", "identity"]
+  },
+  "structured_storage": {
+    "format": "json",
+    "schema": {
+      "date": "YYYY-MM-DD",
+      "type": "github|moltbook|foundry|company|agent|academic|discord|other",
+      "title": "string",
+      "tags": ["array"],
+      "summary": "string",
+      "important": boolean
+    }
+  },
+  "index": {
+    "file": "knowledge/memory-index.json",
+    "rebuild_on_startup": false,
+    "fields": ["date", "type", "title", "tags"]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "skills": {
+    "web-search": {
+      "version": "1.0.0",
+      "installedAt": 1770990175042
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1770990193346
+    },
+    "newsletter-digest": {
+      "version": "1.0.0",
+      "installedAt": 1770990229217
+    },
+    "file-organizer": {
+      "version": "1.0.0",
+      "installedAt": 1770990266600
+    },
+    "remindme": {
+      "version": "2.0.2",
+      "installedAt": 1770990308863
+    },
+    "openclaw-github-assistant": {
+      "version": "2.0.1",
+      "installedAt": 1770990345751
+    },
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1771124134361
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770990432296
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1770990484363
+    },
+    "context-engineering": {
+      "version": "1.0.0",
+      "installedAt": 1770990601343
+    },
+    "openclaw-context-optimizer": {
+      "version": "1.0.0",
+      "installedAt": 1770990610940
+    },
+    "clawpressor": {
+      "version": "1.0.0",
+      "installedAt": 1770990619348
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1771085474615
+    },
+    "baidu-search": {
+      "version": "1.1.0",
+      "installedAt": 1771085476559
+    },
+    "brave-images": {
+      "version": "1.0.1",
+      "installedAt": 1771085485364
+    },
+    "x-twitter": {
+      "version": "2.3.1",
+      "installedAt": 1771124531991
+    },
+    "academic-deep-research": {
+      "version": "1.0.0",
+      "installedAt": 1771085526842
+    },
+    "arxiv": {
+      "version": "1.0.4",
+      "installedAt": 1771085539538
+    },
+    "agentic-paper-digest-skill": {
+      "version": "0.3.3",
+      "installedAt": 1771085548345
+    },
+    "baidu-scholar-search": {
+      "version": "1.0.0",
+      "installedAt": 1771085554080
+    },
+    "qveris": {
+      "version": "0.1.0",
+      "installedAt": 1771122458227
+    },
+    "browser-use": {
+      "version": "1.0.0",
+      "installedAt": 1771124099337
+    },
+    "n8n-workflow-automation": {
+      "version": "1.0.0",
+      "installedAt": 1771124128981
+    },
+    "memory-setup": {
+      "version": "1.0.0",
+      "installedAt": 1771124529432
+    },
+    "reminder": {
+      "version": "0.1.1",
+      "installedAt": 1771124533896
+    },
+    "imap-smtp-email": {
+      "version": "0.0.2",
+      "installedAt": 1771124535987
+    },
+    "gcalcli-calendar": {
+      "version": "3.0.0",
+      "installedAt": 1771124814725
+    },
+    "ai-meeting-notes": {
+      "version": "1.0.3",
+      "installedAt": 1771124817404
+    },
+    "clawdbot-security-check": {
+      "version": "2.2.2",
+      "installedAt": 1771124819646
+    },
+    "whatsapp-business": {
+      "version": "1.0.3",
+      "installedAt": 1771129134943
+    },
+    "code-review": {
+      "version": "1.0.0",
+      "installedAt": 1771136978643
+    },
+    "nextjs": {
+      "version": "1.0.2",
+      "installedAt": 1771137001246
+    },
+    "tmux": {
+      "version": "1.0.0",
+      "installedAt": 1771338407267
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1771338409068
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1771338419655
+    },
+    "linux": {
+      "version": "1.0.0",
+      "installedAt": 1771338621586
+    },
+    "docker": {
+      "version": "1.0.2",
+      "installedAt": 1771338640435
+    },
+    "sysadmin": {
+      "version": "1.0.0",
+      "installedAt": 1771338643089
+    }
+  }
+}

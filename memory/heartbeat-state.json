@@ -1,0 +1,26 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "mentions": null,
+    "weather": null,
+    "teamChats": null
+  },
+  "checkInterval": 7200000,
+  "quietHours": {
+    "start": 23,
+    "end": 8
+  },
+  "outreachTriggers": [
+    "important_email",
+    "calendar_event_2h",
+    "interesting_finding",
+    "inactive_8h"
+  ],
+  "proactiveTasks": [
+    "organize_memory",
+    "check_projects",
+    "update_docs",
+    "commit_changes"
+  ]
+}
