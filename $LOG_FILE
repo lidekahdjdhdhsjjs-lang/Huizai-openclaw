@@ -1,22 +1,11 @@
 {
-  "last_updated": "2026-02-22T18:12:08.206609",
-  "skills": [
-    {
-      "name": "hz-context-optimizer",
-      "price": 5,
-      "sales": 0
-    },
-    {
-      "name": "hz-error-guard",
-      "price": 3,
-      "sales": 0
-    },
-    {
-      "name": "hz-proactive-agent",
-      "price": 5,
-      "sales": 0
-    }
-  ],
-  "total_earnings": 0,
-  "potential_monthly": 130
+  "timestamp": "2026-02-22T19:03:35.631992",
+  "issues": [],
+  "optimizations": [],
+  "stats": {
+    ".py": 0,
+    ".js": 0,
+    ".sh": 0,
+    ".md": 0
+  }
 }
