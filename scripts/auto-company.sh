@@ -15,7 +15,7 @@ echo ""
 echo "【2/6】待处理任务..."
 python3 -c "
 import json
-with open('/home/li/.openclaw/cron/jobs.json') as f:
+with open('$HOME/.openclaw/cron/jobs.json') as f:
     data = json.load(f)
     jobs = data.get('jobs', [])
     print(f'定时任务: {len(jobs)}个')
@@ -39,7 +39,7 @@ except:
 # 4. 技能状态
 echo ""
 echo "【4/6】技能状态..."
-skills=$(ls /home/li/.openclaw/workspace/skills/ 2>/dev/null | wc -l)
+skills=$(ls $HOME/.openclaw/workspace/skills/ 2>/dev/null | wc -l)
 echo "已安装技能: ${skills}个"
 
 # 5. 内存状态

@@ -1,7 +1,7 @@
 #!/bin/bash
 # 亮仔GitHub自动备份脚本
 
-cd /home/li/.openclaw/workspace
+cd $HOME/.openclaw/workspace
 
 # 添加修改的文件
 git add -A 2>/dev/null
