@@ -1,0 +1,12 @@
+{
+  "daily-learning": "运行 learning.sh，读取 LEARNING.md 总结关键内容",
+  "daily-memory-summary": "运行 daily_summary.sh，读取 permanent.json，总结今日3个学习点，更新 USER.md",
+  "weekly-review": "读取本周 memory/*.md，提取学习点，分析偏好变化，制定下周目标，输出周报",
+  "foundry-evolution-v2": "运行 foundry_metrics 和 foundry_overseer，提取洞察，更新学习记录",
+  "adaptive-learning": "分析工具适应度，识别低效工具，生成改进建议",
+  "github-trending-learning": "抓取 GitHub trending，更新 skills 趋势报告",
+  "arxiv-learning": "抓取最新 AI/ML 论文，总结摘要",
+  "smart-diagnosis": "检查 Gateway 状态、cron 运行结果、错误日志，输出诊断报告",
+  "evening-report": "汇总今日：学习模式数、系统状态、任务执行结果",
+  "triple-robot-discussion": "运行三人讨论：探索者-优化师-总结者角色扮演"
+}

@@ -1,0 +1,198 @@
+{
+  "episode": 1,
+  "title": "第1集：退婚之辱",
+  "shots": [
+    {
+      "shot_id": "EP001_SHOT01",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_001_GU_MANSION",
+      "prop_ids": [],
+      "action": "镜头1动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT02",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_002_WEDDING_VENUE",
+      "prop_ids": [],
+      "action": "镜头2动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT03",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_003_GU_CORPORATION",
+      "prop_ids": [],
+      "action": "镜头3动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT04",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_004_UNIVERSITY",
+      "prop_ids": [],
+      "action": "镜头4动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT05",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_005_STREET_NIGHT",
+      "prop_ids": [],
+      "action": "镜头5动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT06",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_001_GU_MANSION",
+      "prop_ids": [],
+      "action": "镜头6动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT07",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_002_WEDDING_VENUE",
+      "prop_ids": [],
+      "action": "镜头7动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT08",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_003_GU_CORPORATION",
+      "prop_ids": [],
+      "action": "镜头8动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT09",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_004_UNIVERSITY",
+      "prop_ids": [],
+      "action": "镜头9动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT10",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_005_STREET_NIGHT",
+      "prop_ids": [],
+      "action": "镜头10动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT11",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_001_GU_MANSION",
+      "prop_ids": [],
+      "action": "镜头11动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    },
+    {
+      "shot_id": "EP001_SHOT12",
+      "duration": "5秒",
+      "char_ids": [
+        "CHAR_001_GU_YANG"
+      ],
+      "scene_id": "SCENE_002_WEDDING_VENUE",
+      "prop_ids": [],
+      "action": "镜头12动作描述",
+      "emotion": "情绪描述",
+      "camera": "中景",
+      "lighting": "自然光",
+      "character_state": {
+        "CHAR_001_GU_YANG": "服装正常，表情坚定"
+      }
+    }
+  ]
+}

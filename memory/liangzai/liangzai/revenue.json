@@ -1,0 +1,34 @@
+{
+  "last_updated": "2026-02-22T17:25:22.881346",
+  "balance": {
+    "user": 0,
+    "system": 0
+  },
+  "sources": {
+    "clawhub": {
+      "status": "pending_login",
+      "skills_to_publish": [
+        "context-engineering",
+        "error-guard",
+        "proactive-agent",
+        "restart-guard"
+      ],
+      "potential_earnings": "50-100 USD/month"
+    },
+    "moltbook": {
+      "status": "pending",
+      "content_ideas": [
+        "AI\u81ea\u52a8\u5316\u6280\u5de7",
+        "OpenClaw\u8fdb\u9636\u6559\u7a0b",
+        "\u81ea\u7814\u667a\u80fd\u4f53\u5b9e\u8df5"
+      ],
+      "potential_earnings": "20-50 USD/month"
+    },
+    "foundry_marketplace": {
+      "status": "active",
+      "patterns_count": 194,
+      "insights_count": 5443,
+      "potential_earnings": "30-80 USD/month"
+    }
+  }
+}

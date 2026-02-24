@@ -1,0 +1,32 @@
+# Memory Index (L0)
+
+## Active Topics
+- 亮仔身份与性格 (files: MEMORY.md, SOUL.md)
+- OpenClaw系统配置 (files: AGENTS.md, TOOLS.md)
+- 三人讨论系统 (files: discussion-config.json, discussion-rules.md)
+- 自动化任务cron (files: weekly-report-2026-02-22.md)
+- Foundry自进化 (files: foundry-evolution-*.md, evolution-*.md)
+
+## Retrieval Hints
+- identity, personality, 亮仔
+- config, channels, discord, whatsapp
+- discussion, triple-robot, 辉仔, 康仔
+- cron, automation, backup
+- foundry, evolution, patterns, insights
+
+## Recent Updates
+- 2026-02-24
+
+## Subdirectories
+- daily/ - 每日原始日志 (L2)
+- skills/ - 技能学习记录
+- projects/ - 项目相关
+- archive/ - 已归档 (180天+)
+
+## Lifecycle
+- P0: 永久 (身份、偏好、长期原则)
+- P1: 90天 (活跃项目)
+- P2: 30天 (临时信息)
+
+---
+Last updated: 2026-02-24

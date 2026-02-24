@@ -1,0 +1,21 @@
+[Unit]
+Description=Memory Evolver - 自我进化记忆系统
+After=network.target
+
+[Service]
+Type=simple
+User=li
+WorkingDirectory=/home/li/.openclaw/workspace/memory/scripts
+ExecStart=/usr/bin/node /home/li/.openclaw/workspace/memory/scripts/memory-evolver.js
+Restart=always
+RestartSec=60
+
+# 环境
+Environment=NODE_ENV=production
+
+# 日志
+StandardOutput=append:/home/li/.openclaw/workspace/memory/logs/evolver.log
+StandardError=append:/home/li/.openclaw/workspace/memory/logs/evolver-error.log
+
+[Install]
+WantedBy=multi-user.target

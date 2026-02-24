@@ -1,0 +1,8 @@
+{
+  "name": "local-bookmark-index",
+  "version": "1.0.0",
+  "description": "Local bookmark index - imports and searches browser bookmarks",
+  "main": "index.js",
+  "keywords": ["bookmark", "index", "browser", "local"],
+  "license": "MIT"
+}

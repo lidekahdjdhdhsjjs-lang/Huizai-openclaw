@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-02-23T07:54:37.881Z",
+  "memory": {
+    "hotMemories": 10,
+    "toolHealth": 16,
+    "healthy": 10,
+    "critical": 1
+  },
+  "evolution": {
+    "patterns": 33,
+    "crystallizable": 5,
+    "recommendations": 11
+  },
+  "hooks": 15,
+  "skills": 33,
+  "cron": {
+    "total": 14,
+    "enabled": 14
+  }
+}

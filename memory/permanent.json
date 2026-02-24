@@ -1,0 +1,47 @@
+{
+  "version": "1.1",
+  "createdAt": "2026-02-14",
+  "updatedAt": "2026-02-14T21:12:00",
+  "user": {
+    "name": "老板",
+    "preferences": {
+      "language": "中文",
+      "communicationStyle": "直接简洁",
+      "emoji": "🏃‍♂️",
+      "timezone": "Asia/Shanghai"
+    }
+  },
+  "autoCompany": {
+    "enabled": true,
+    "healthCheck": "每3小时",
+    "uptime": ">99%"
+  },
+  "foundry": {
+    "enabled": true,
+    "version": "v2",
+    "learnedPatterns": 6,
+    "crystallizedHooks": 6,
+    "skills": 2,
+    "evolutionInterval": "1小时",
+    "learningSources": [
+      "GitHub Trending",
+      "arXiv论文",
+      "HackerNews",
+      "OpenClaw Issues"
+    ]
+  },
+  "system": {
+    "evolutionV2": "每小时",
+    "healthCheck": "每3小时",
+    "crossBotLearning": "每6小时",
+    "dailyLearning": "09:00",
+    "tripleDiscussion": "21:00",
+    "dailySummary": "23:00"
+  },
+  "latestLearnings": {
+    "github": ["dify⭐129k", "langchain⭐126k", "awesome-llm-apps⭐94k", "browser-use⭐78k"],
+    "openclaw_issues": ["cron修复", "API重试", "Cron管理API慢"]
+  },
+  "skills": 30,
+  "model": "MiniMax-M2.5"
+}

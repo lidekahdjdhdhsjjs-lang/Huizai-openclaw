@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-02-24T16:06:17.876Z",
+  "totalPatterns": 79,
+  "topPatterns": [
+    {
+      "pattern": "message:guildId required",
+      "count": 35
+    },
+    {
+      "pattern": "message:Action read requires a target.",
+      "count": 35
+    },
+    {
+      "pattern": "message:Action send requires a target.",
+      "count": 27
+    },
+    {
+      "pattern": "read:ENOENT: no such file or directory, access '/home/l",
+      "count": 24
+    },
+    {
+      "pattern": "browser:Can't reach the OpenClaw browser control service. ",
+      "count": 20
+    },
+    {
+      "pattern": "web_fetch:Blocked: resolves to private/internal/special-use ",
+      "count": 20
+    },
+    {
+      "pattern": "web_fetch:Web fetch failed (404): SECURITY NOTICE: The follo",
+      "count": 11
+    },
+    {
+      "pattern": "exec:error: missing required argument 'query'",
+      "count": 11
+    },
+    {
+      "pattern": "cron:gateway timeout after 60000ms",
+      "count": 10
+    },
+    {
+      "pattern": "message:gateway closed (1008): unauthorized: device token ",
+      "count": 10
+    },
+    {
+      "pattern": "exec:Command aborted by signal SIGTERM",
+      "count": 10
+    },
+    {
+      "pattern": "exec:Command exited with code 1",
+      "count": 9
+    },
+    {
+      "pattern": "cron:Validation failed for tool \"cron\":",
+      "count": 9
+    },
+    {
+      "pattern": "browser:Can't reach the OpenClaw browser control service (",
+      "count": 6
+    },
+    {
+      "pattern": "edit:Missing required parameter: oldText (oldText or ol",
+      "count": 6
+    },
+    {
+      "pattern": "exec:Command aborted by signal SIGKILL",
+      "count": 6
+    },
+    {
+      "pattern": "web_fetch:getaddrinfo ENOTFOUND github.com",
+      "count": 5
+    },
+    {
+      "pattern": "message:gateway closed (1008): pairing required",
+      "count": 5
+    },
+    {
+      "pattern": "edit:Could not find the exact text in /home/li/.opencla",
+      "count": 4
+    },
+    {
+      "pattern": "gateway:Validation failed for tool \"gateway\":",
+      "count": 3
+    }
+  ],
+  "crystallizable": []
+}

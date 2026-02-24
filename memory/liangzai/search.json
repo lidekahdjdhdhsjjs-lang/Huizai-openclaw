@@ -1,0 +1,17 @@
+{
+  "semantic_search": {
+    "enabled": true,
+    "model": "minimax-embedding",
+    "index_path": "~/.openclaw/workspace/memory/.index/"
+  },
+  "auto_summary": {
+    "enabled": true,
+    "schedule": "0 23 * * *",
+    "max_length": 500
+  },
+  "forget": {
+    "enabled": true,
+    "keep_days": 90,
+    "archive_days": 180
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "characters": [
+    {
+      "char_id": "CHAR_001_GU_YANG",
+      "name": "顾阳",
+      "gender": "男",
+      "age": "28",
+      "personality": "表面玩世不恭，实则深情专一，重情重义",
+      "arc": "从被退婚的落魄少爷到百亿身家的商业巨头",
+      "appearance_fixed": {
+        "face": "剑眉星目，鼻梁高挺，右眉有细疤",
+        "hair": "黑色短发打理得一丝不苟",
+        "build": "修长挺拔185cm",
+        "costume": "高定西装，佩戴百达翡丽手表"
+      },
+      "reference_images": []
+    },
+    {
+      "char_id": "CHAR_002_BAI_XINXIN",
+      "name": "白心心",
+      "gender": "女",
+      "age": "24",
+      "personality": "活泼开朗，正义感强，表面柔弱内心坚强",
+      "arc": "从普通女孩到顾阳的命中注定",
+      "appearance_fixed": {
+        "face": "鹅蛋脸，大眼睛，小酒窝",
+        "hair": "黑色长发，常扎马尾",
+        "build": "165cm，匀称",
+        "costume": "简约时尚"
+      },
+      "reference_images": []
+    },
+    {
+      "char_id": "CHAR_003_LIU_FEIFEI",
+      "name": "刘菲菲",
+      "gender": "女",
+      "age": "26",
+      "personality": "绿茶心机女，嫌贫爱富",
+      "arc": "从背叛到后悔",
+      "appearance_fixed": {
+        "face": "锥子脸，网红脸",
+        "hair": "棕色大波浪",
+        "build": "170cm丰满",
+        "costume": "奢侈品堆砌"
+      },
+      "reference_images": []
+    },
+    {
+      "char_id": "CHAR_004_ZHANG_HAO",
+      "name": "张昊",
+      "gender": "男",
+      "age": "30",
+      "personality": "顾阳的情敌，傲慢自大",
+      "arc": "从挑衅到被打脸",
+      "appearance_fixed": {
+        "face": "还算帅气但眼神猥琐",
+        "hair": "背头",
+        "build": "178cm",
+        "costume": "西装但不得体"
+      },
+      "reference_images": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-24T16:06:18.036Z",
+  "phase": "dark-forest-evolution",
+  "lifeState": "prosperity",
+  "balance": 60463,
+  "memory": {
+    "hotMemories": 10
+  },
+  "evolution": {
+    "crystallizable": 0,
+    "critical": 1
+  }
+}

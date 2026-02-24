@@ -1,0 +1,41 @@
+{
+  "validationTime": 300000,
+  "maxConcurrentImprovements": 1,
+  "autoRollback": true,
+  "triggers": {
+    "schedule": {
+      "daily": "03:00",
+      "weekly": "Sunday 03:00",
+      "monthly": "1st 03:00"
+    },
+    "events": {
+      "failureRate": { "threshold": 0.20, "window": 300000 },
+      "fitness": { "threshold": 0.80, "any": true },
+      "memory": { "threshold": 0.90 },
+      "disk": { "threshold": 0.85 },
+      "hooks": { "threshold": 500 },
+      "learningRecords": { "threshold": 10000 },
+      "unresolvedFailures": { "threshold": 100 }
+    }
+  },
+  "thresholds": {
+    "failureRate": 0.20,
+    "fitness": 0.80,
+    "memory": 0.90,
+    "disk": 0.85,
+    "hooks": 500,
+    "learningRecords": 10000,
+    "unresolvedFailures": 100
+  },
+  "actions": {
+    "cleanup": { "enabled": true, "autoExecute": true },
+    "optimize": { "enabled": true, "autoExecute": true },
+    "create": { "enabled": true, "autoExecute": true },
+    "modify": { "enabled": true, "autoExecute": true }
+  },
+  "rollback": {
+    "enabled": true,
+    "maxSnapshots": 50,
+    "snapshotRetention": 604800000
+  }
+}

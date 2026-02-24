@@ -1,0 +1,533 @@
+{
+  "generatedAt": "2026-02-24T16:06:17.916Z",
+  "toolHealth": {
+    "healthy": [
+      {
+        "name": "exec",
+        "fitness": 97,
+        "successCount": 10644,
+        "failureCount": 277,
+        "totalCalls": 10921,
+        "failureRate": 3
+      },
+      {
+        "name": "gateway",
+        "fitness": 91,
+        "successCount": 136,
+        "failureCount": 14,
+        "totalCalls": 150,
+        "failureRate": 9
+      },
+      {
+        "name": "write",
+        "fitness": 100,
+        "successCount": 1000,
+        "failureCount": 1,
+        "totalCalls": 1001,
+        "failureRate": 0
+      },
+      {
+        "name": "read",
+        "fitness": 95,
+        "successCount": 1558,
+        "failureCount": 78,
+        "totalCalls": 1636,
+        "failureRate": 5
+      },
+      {
+        "name": "process",
+        "fitness": 100,
+        "successCount": 1076,
+        "failureCount": 0,
+        "totalCalls": 1076,
+        "failureRate": 0
+      },
+      {
+        "name": "web_search",
+        "fitness": 100,
+        "successCount": 59,
+        "failureCount": 0,
+        "totalCalls": 59,
+        "failureRate": 0
+      },
+      {
+        "name": "memory_search",
+        "fitness": 100,
+        "successCount": 54,
+        "failureCount": 0,
+        "totalCalls": 54,
+        "failureRate": 0
+      },
+      {
+        "name": "session_status",
+        "fitness": 100,
+        "successCount": 44,
+        "failureCount": 0,
+        "totalCalls": 44,
+        "failureRate": 0
+      },
+      {
+        "name": "nodes",
+        "fitness": 100,
+        "successCount": 12,
+        "failureCount": 0,
+        "totalCalls": 12,
+        "failureRate": 0
+      },
+      {
+        "name": "memory_get",
+        "fitness": 100,
+        "successCount": 12,
+        "failureCount": 0,
+        "totalCalls": 12,
+        "failureRate": 0
+      },
+      {
+        "name": "sessions_history",
+        "fitness": 100,
+        "successCount": 2,
+        "failureCount": 0,
+        "totalCalls": 2,
+        "failureRate": 0
+      }
+    ],
+    "degraded": [
+      {
+        "name": "cron",
+        "fitness": 87,
+        "successCount": 286,
+        "failureCount": 42,
+        "totalCalls": 328,
+        "failureRate": 13
+      },
+      {
+        "name": "message",
+        "fitness": 73,
+        "successCount": 1020,
+        "failureCount": 379,
+        "totalCalls": 1399,
+        "failureRate": 27
+      },
+      {
+        "name": "edit",
+        "fitness": 87,
+        "successCount": 397,
+        "failureCount": 60,
+        "totalCalls": 457,
+        "failureRate": 13
+      },
+      {
+        "name": "browser",
+        "fitness": 82,
+        "successCount": 590,
+        "failureCount": 132,
+        "totalCalls": 722,
+        "failureRate": 18
+      },
+      {
+        "name": "sessions_list",
+        "fitness": 78,
+        "successCount": 28,
+        "failureCount": 8,
+        "totalCalls": 36,
+        "failureRate": 22
+      }
+    ],
+    "critical": [
+      {
+        "name": "web_fetch",
+        "fitness": 59,
+        "successCount": 170,
+        "failureCount": 119,
+        "totalCalls": 289,
+        "failureRate": 41
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "Action read requires a target.",
+      "occurrences": 35,
+      "useCount": 98,
+      "resolutionRate": 57,
+      "avgImprovement": 42,
+      "crystallizable": false,
+      "sampleError": "Action read requires a target.",
+      "sampleResolution": "Succeeded after retry with message"
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "guildId required",
+      "occurrences": 35,
+      "useCount": 92,
+      "resolutionRate": 43,
+      "avgImprovement": 28,
+      "crystallizable": false,
+      "sampleError": "guildId required",
+      "sampleResolution": "Succeeded after retry with memory_search"
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "Action send requires a target.",
+      "occurrences": 27,
+      "useCount": 70,
+      "resolutionRate": 67,
+      "avgImprovement": 48,
+      "crystallizable": false,
+      "sampleError": "Action send requires a target.",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_read_1771949177915",
+      "tool": "read",
+      "errorPattern": "ENOENT: no such file or directory, access '...'",
+      "occurrences": 16,
+      "useCount": 51,
+      "resolutionRate": 56,
+      "avgImprovement": 47,
+      "crystallizable": false,
+      "sampleError": "ENOENT: no such file or directory, access '/home/li/.openclaw/workspace/memory/2026-02-18.md'",
+      "sampleResolution": "Succeeded after retry with write"
+    },
+    {
+      "id": "pattern_web_fetch_1771949177915",
+      "tool": "web_fetch",
+      "errorPattern": "Blocked: resolves to private/internal/special-use IP address",
+      "occurrences": 20,
+      "useCount": 33,
+      "resolutionRate": 35,
+      "avgImprovement": 18,
+      "crystallizable": false,
+      "sampleError": "Blocked: resolves to private/internal/special-use IP address",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_read_1771949177915",
+      "tool": "read",
+      "errorPattern": "Offset N is beyond end of file (N lines total)",
+      "occurrences": 15,
+      "useCount": 42,
+      "resolutionRate": 100,
+      "avgImprovement": 65,
+      "crystallizable": false,
+      "sampleError": "Offset 45 is beyond end of file (43 lines total)",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_browser_1771949177915",
+      "tool": "browser",
+      "errorPattern": "Can't reach the OpenClaw browser control service. Restart the OpenClaw gateway (OpenClaw.app menubar",
+      "occurrences": 12,
+      "useCount": 49,
+      "resolutionRate": 83,
+      "avgImprovement": 59,
+      "crystallizable": false,
+      "sampleError": "Can't reach the OpenClaw browser control service. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. (Error: Error: Chrome extension relay for profile \"chrome\" is not reachable at http://127.0.0.1:18792.)",
+      "sampleResolution": "Succeeded after retry with gateway"
+    },
+    {
+      "id": "pattern_exec_1771949177915",
+      "tool": "exec",
+      "errorPattern": "Command exited with code N",
+      "occurrences": 13,
+      "useCount": 42,
+      "resolutionRate": 100,
+      "avgImprovement": 66,
+      "crystallizable": false,
+      "sampleError": "Command exited with code 1",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_web_fetch_1771949177915",
+      "tool": "web_fetch",
+      "errorPattern": "Web fetch failed (N): SECURITY NOTICE: The following content is from an EXTERNAL, UNTRUSTED source",
+      "occurrences": 11,
+      "useCount": 25,
+      "resolutionRate": 100,
+      "avgImprovement": 61,
+      "crystallizable": false,
+      "sampleError": "Web fetch failed (404): SECURITY NOTICE: The following content is from an EXTERNAL, UNTRUSTED source (e.g., email, webhook).",
+      "sampleResolution": "Succeeded after retry with write"
+    },
+    {
+      "id": "pattern_exec_1771949177915",
+      "tool": "exec",
+      "errorPattern": "error: missing required argument '...'",
+      "occurrences": 11,
+      "useCount": 21,
+      "resolutionRate": 100,
+      "avgImprovement": 67,
+      "crystallizable": false,
+      "sampleError": "error: missing required argument 'query'",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "gateway closed (N): unauthorized: device token mismatch (rotate/reissue device token)",
+      "occurrences": 10,
+      "useCount": 22,
+      "resolutionRate": 100,
+      "avgImprovement": 53,
+      "crystallizable": false,
+      "sampleError": "gateway closed (1008): unauthorized: device token mismatch (rotate/reissue device token)",
+      "sampleResolution": "Succeeded after retry with write"
+    },
+    {
+      "id": "pattern_cron_1771949177915",
+      "tool": "cron",
+      "errorPattern": "gateway timeout after Nms",
+      "occurrences": 10,
+      "useCount": 19,
+      "resolutionRate": 100,
+      "avgImprovement": 100,
+      "crystallizable": false,
+      "sampleError": "gateway timeout after 60000ms",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_exec_1771949177915",
+      "tool": "exec",
+      "errorPattern": "Command aborted by signal SIGTERM",
+      "occurrences": 10,
+      "useCount": 18,
+      "resolutionRate": 60,
+      "avgImprovement": 46,
+      "crystallizable": false,
+      "sampleError": "Command aborted by signal SIGTERM",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_cron_1771949177915",
+      "tool": "cron",
+      "errorPattern": "Validation failed for tool \"...\":",
+      "occurrences": 9,
+      "useCount": 18,
+      "resolutionRate": 100,
+      "avgImprovement": 68,
+      "crystallizable": false,
+      "sampleError": "Validation failed for tool \"cron\":",
+      "sampleResolution": "Succeeded after retry with cron"
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "Unknown target \"...\" for Discord. Hint: <channelId|user:ID|channel:ID>",
+      "occurrences": 9,
+      "useCount": 16,
+      "resolutionRate": 11,
+      "avgImprovement": 6,
+      "crystallizable": false,
+      "sampleError": "Unknown target \"bot-discord-discussion\" for Discord. Hint: <channelId|user:ID|channel:ID>",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_edit_1771949177915",
+      "tool": "edit",
+      "errorPattern": "Found N occurrences of the text in /home/li/.openclaw/workspace/memory/discord-N-N-N.md. The te",
+      "occurrences": 7,
+      "useCount": 20,
+      "resolutionRate": 100,
+      "avgImprovement": 65,
+      "crystallizable": false,
+      "sampleError": "Found 2 occurrences of the text in /home/li/.openclaw/workspace/memory/discord-2026-02-15.md. The text must be unique. Please provide more context to make it unique.",
+      "sampleResolution": "Succeeded after retry with read"
+    },
+    {
+      "id": "pattern_browser_1771949177915",
+      "tool": "browser",
+      "errorPattern": "Can't reach the OpenClaw browser control service. Start (or restart) the OpenClaw gateway (OpenClaw.",
+      "occurrences": 8,
+      "useCount": 16,
+      "resolutionRate": 100,
+      "avgImprovement": 58,
+      "crystallizable": false,
+      "sampleError": "Can't reach the OpenClaw browser control service. Start (or restart) the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`) and try again. (Error: Error: No supported browser found (Chrome/Brave/Edge/Chromium on macOS, Linux, or Windows).)",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_browser_1771949177915",
+      "tool": "browser",
+      "errorPattern": "Can't reach the OpenClaw browser control service (timed out after Nms). Restart the OpenClaw gat",
+      "occurrences": 6,
+      "useCount": 15,
+      "resolutionRate": 83,
+      "avgImprovement": 50,
+      "crystallizable": false,
+      "sampleError": "Can't reach the OpenClaw browser control service (timed out after 15000ms). Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_exec_1771949177915",
+      "tool": "exec",
+      "errorPattern": "Command aborted by signal SIGKILL",
+      "occurrences": 6,
+      "useCount": 9,
+      "resolutionRate": 50,
+      "avgImprovement": 38,
+      "crystallizable": false,
+      "sampleError": "Command aborted by signal SIGKILL",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_edit_1771949177915",
+      "tool": "edit",
+      "errorPattern": "Missing required parameter: oldText (oldText or old_string). Supply correct parameters before retryi",
+      "occurrences": 6,
+      "useCount": 9,
+      "resolutionRate": 50,
+      "avgImprovement": 33,
+      "crystallizable": false,
+      "sampleError": "Missing required parameter: oldText (oldText or old_string). Supply correct parameters before retrying.",
+      "sampleResolution": "Succeeded after retry with edit"
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "gateway closed (N): pairing required",
+      "occurrences": 5,
+      "useCount": 8,
+      "resolutionRate": 100,
+      "avgImprovement": 100,
+      "crystallizable": false,
+      "sampleError": "gateway closed (1008): pairing required",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_web_fetch_1771949177915",
+      "tool": "web_fetch",
+      "errorPattern": "getaddrinfo ENOTFOUND github.com",
+      "occurrences": 5,
+      "useCount": 8,
+      "resolutionRate": 60,
+      "avgImprovement": 33,
+      "crystallizable": false,
+      "sampleError": "getaddrinfo ENOTFOUND github.com",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_edit_1771949177915",
+      "tool": "edit",
+      "errorPattern": "No changes made to /home/li/.openclaw/workspace/memory/discord-N-N-N.md. The replacement produc",
+      "occurrences": 3,
+      "useCount": 6,
+      "resolutionRate": 100,
+      "avgImprovement": 63,
+      "crystallizable": false,
+      "sampleError": "No changes made to /home/li/.openclaw/workspace/memory/discord-2026-02-15.md. The replacement produced identical content. This might indicate an issue with special characters or the text not existing as expected.",
+      "sampleResolution": "Succeeded after retry with read"
+    },
+    {
+      "id": "pattern_read_1771949177915",
+      "tool": "read",
+      "errorPattern": "ENOENT: no such file or directory, access '/home/li/.openclaw/hooks/message-guild-target-fixer/handl",
+      "occurrences": 4,
+      "useCount": 4,
+      "resolutionRate": 50,
+      "avgImprovement": 29,
+      "crystallizable": false,
+      "sampleError": "ENOENT: no such file or directory, access '/home/li/.openclaw/hooks/message-guild-target-fixer/handler.ts'",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_gateway_1771949177915",
+      "tool": "gateway",
+      "errorPattern": "Validation failed for tool \"...\":",
+      "occurrences": 3,
+      "useCount": 4,
+      "resolutionRate": 100,
+      "avgImprovement": 57,
+      "crystallizable": false,
+      "sampleError": "Validation failed for tool \"gateway\":",
+      "sampleResolution": "Succeeded after retry with exec"
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "Validation failed for tool \"...\":",
+      "occurrences": 1,
+      "useCount": 11,
+      "resolutionRate": 100,
+      "avgImprovement": 100,
+      "crystallizable": false,
+      "sampleError": "Validation failed for tool \"message\":",
+      "sampleResolution": "Succeeded after retry with memory_search"
+    },
+    {
+      "id": "pattern_foundry_write_extension_1771949177915",
+      "tool": "foundry_write_extension",
+      "errorPattern": "Code validation failed: Syntax error: Cannot use import statement outside a module",
+      "occurrences": 3,
+      "useCount": 3,
+      "resolutionRate": 100,
+      "avgImprovement": 0,
+      "crystallizable": false,
+      "sampleError": "Code validation failed: Syntax error: Cannot use import statement outside a module",
+      "sampleResolution": "Use inline code only. Do not use import/require statements. All dependencies must be inlined or use global APIs available in the plugin context."
+    },
+    {
+      "id": "pattern_message_1771949177915",
+      "tool": "message",
+      "errorPattern": "Unknown Channel",
+      "occurrences": 1,
+      "useCount": 6,
+      "resolutionRate": 100,
+      "avgImprovement": 50,
+      "crystallizable": false,
+      "sampleError": "Unknown Channel",
+      "sampleResolution": "Succeeded after retry with exec"
+    }
+  ],
+  "logInsights": {
+    "recentErrors": [],
+    "recurringIssues": []
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "type": "tool_fix",
+      "tool": "web_fetch",
+      "message": "工具 web_fetch 健康度仅 59%，失败率 41%",
+      "action": "检查 web_fetch 工具实现，添加重试机制或fallback"
+    },
+    {
+      "priority": "high",
+      "type": "tool_optimize",
+      "tool": "cron",
+      "message": "工具 cron 健康度 87%，需要优化",
+      "action": "分析失败原因，考虑添加错误处理"
+    },
+    {
+      "priority": "high",
+      "type": "tool_optimize",
+      "tool": "message",
+      "message": "工具 message 健康度 73%，需要优化",
+      "action": "分析失败原因，考虑添加错误处理"
+    },
+    {
+      "priority": "high",
+      "type": "tool_optimize",
+      "tool": "edit",
+      "message": "工具 edit 健康度 87%，需要优化",
+      "action": "分析失败原因，考虑添加错误处理"
+    },
+    {
+      "priority": "high",
+      "type": "tool_optimize",
+      "tool": "browser",
+      "message": "工具 browser 健康度 82%，需要优化",
+      "action": "分析失败原因，考虑添加错误处理"
+    },
+    {
+      "priority": "high",
+      "type": "tool_optimize",
+      "tool": "sessions_list",
+      "message": "工具 sessions_list 健康度 78%，需要优化",
+      "action": "分析失败原因，考虑添加错误处理"
+    }
+  ]
+}

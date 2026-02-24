@@ -1,0 +1,7 @@
+{
+  "learnings": "/home/li/.openclaw/foundry/learnings.json",
+  "sessions": "/home/li/.openclaw/agents/main/sessions",
+  "sqlite": "/home/li/.openclaw/memory/main.sqlite",
+  "logs": "/home/li/.openclaw/logs",
+  "rawMemory": "/home/li/.openclaw/workspace/memory"
+}

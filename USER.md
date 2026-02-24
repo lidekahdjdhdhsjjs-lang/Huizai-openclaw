@@ -2,8 +2,8 @@
 
 _learned from initialization_
 
-- **Name:** 
-- **What to call them:** 
+- **Name:** 亮仔
+- **What to call them:** 老板 
 - **Pronouns:** 
 - **Timezone:** Asia/Shanghai
 - **Discord ID:** 1468988290790068274

@@ -1,0 +1,8 @@
+{
+  "name": "local-git-analyzer",
+  "version": "1.0.0",
+  "description": "Local Git repository analyzer - no external APIs needed",
+  "main": "index.js",
+  "keywords": ["git", "analyzer", "local"],
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+{
+  "universe_id": "template_universe",
+  "universe_name": "模板剧集",
+  "genre": "玄幻",
+  "era": "架空古代",
+  "core_conflict": "主角从凡人一步步修炼成仙的历程",
+  "magic_system": {
+    "name": "修仙体系",
+    "levels": ["炼气", "筑基", "金丹", "元婴", "化神", "炼虚", "合体", "大乘", "渡劫"],
+    "description": "通过修炼灵气提升境界，每个大境界分九层"
+  },
+  "geography": {
+    "main_locations": [
+      "青云宗",
+      "万妖山", 
+      "东海仙岛",
+      "九天仙界"
+    ]
+  },
+  "visual_style": "水墨仙侠风格",
+  "tone": "热血爽文，快节奏",
+  "target_audience": "玄幻爱好者",
+  "created_at": "",
+  "updated_at": ""
+}

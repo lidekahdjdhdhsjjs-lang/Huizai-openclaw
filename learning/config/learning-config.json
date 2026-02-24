@@ -1,0 +1,188 @@
+{
+  "learning": {
+    "security": {
+      "encryptionEnabled": true,
+      "auditEnabled": true,
+      "sensitivePatterns": [
+        "password",
+        "secret",
+        "token",
+        "api_key",
+        "credential",
+        "private_key",
+        "access_key"
+      ],
+      "maxDataAge": 31536000000,
+      "dataRetentionPolicy": "auto"
+    },
+    "performance": {
+      "cacheEnabled": true,
+      "cacheMaxSize": 1000,
+      "cacheTTL": 1800000,
+      "lazyLoadEnabled": true,
+      "preloadEnabled": true,
+      "batchSize": 100,
+      "maxConcurrentOps": 10,
+      "metricsEnabled": true
+    },
+    "quality": {
+      "importanceWeights": {
+        "useCount": 0.3,
+        "recency": 0.2,
+        "successRate": 0.25,
+        "crystallized": 0.15,
+        "feedbackScore": 0.1
+      },
+      "dedupThreshold": 0.85,
+      "minConfidence": 0.5,
+      "maxConfidence": 1.0,
+      "decayFactor": 0.95,
+      "qualityThresholds": {
+        "high": 0.8,
+        "medium": 0.5,
+        "low": 0.3
+      }
+    },
+    "indexer": {
+      "indexLevels": ["L0", "L1", "L2"],
+      "autoRebuild": true,
+      "rebuildThreshold": 1000
+    },
+    "retrieval": {
+      "mmrLambda": 0.7,
+      "mmrK": 10,
+      "temporalDecayHalfLife": 5184000000,
+      "maxResults": 50,
+      "minRelevance": 0.3,
+      "hybridWeights": {
+        "keyword": 0.4,
+        "semantic": 0.3,
+        "temporal": 0.2,
+        "quality": 0.1
+      }
+    },
+    "lifecycle": {
+      "retentionPolicies": {
+        "P0": {
+          "maxAge": null,
+          "minUseCount": 50,
+          "keepCrystallized": true
+        },
+        "P1": {
+          "maxAge": 31536000000,
+          "minUseCount": 10,
+          "keepCrystallized": true
+        },
+        "P2": {
+          "maxAge": 15552000000,
+          "minUseCount": 5,
+          "keepCrystallized": false
+        },
+        "P3": {
+          "maxAge": 7776000000,
+          "minUseCount": 0,
+          "keepCrystallized": false
+        }
+      },
+      "archiveEnabled": true,
+      "cleanupInterval": 86400000,
+      "batchSize": 100
+    },
+    "automation": {
+      "autoClassify": true,
+      "autoCrystallize": true,
+      "crystallizeThreshold": 10,
+      "automationRules": []
+    },
+    "integration": {
+      "syncEnabled": true,
+      "syncInterval": 60000
+    }
+  },
+  "evolution": {
+    "populationSize": 100,
+    "security": {
+      "sandboxEnabled": true,
+      "mutationValidation": true,
+      "maxMutationRate": 0.3,
+      "safeMode": true,
+      "rollbackEnabled": true,
+      "auditEnabled": true
+    },
+    "performance": {
+      "populationCacheSize": 100,
+      "fitnessCacheEnabled": true,
+      "parallelEvaluations": 4,
+      "adaptiveMutationRate": true,
+      "elitismRate": 0.1,
+      "maxGenerationTime": 60000,
+      "resourceLimits": {
+        "maxMemory": 536870912,
+        "maxCpuPercent": 80
+      }
+    },
+    "quality": {
+      "fitnessThresholds": {
+        "excellent": 0.9,
+        "good": 0.7,
+        "acceptable": 0.5,
+        "poor": 0.3
+      },
+      "qualityWeights": {
+        "performance": 0.4,
+        "stability": 0.3,
+        "efficiency": 0.2,
+        "novelty": 0.1
+      },
+      "penaltyFactors": {
+        "complexityPenalty": 0.1,
+        "resourceAbusePenalty": 0.2,
+        "errorPenalty": 0.5
+      },
+      "diversityWeight": 0.2
+    },
+    "indexer": {
+      "indexDepth": 3
+    },
+    "retrieval": {
+      "maxResults": 50,
+      "minRelevance": 0.3,
+      "temporalDecay": 0.95
+    },
+    "lifecycle": {
+      "retentionPolicies": {
+        "elite": {
+          "maxAge": null,
+          "minFitness": 0.9
+        },
+        "viable": {
+          "maxAge": 100,
+          "minFitness": 0.5
+        },
+        "experimental": {
+          "maxAge": 50,
+          "minFitness": 0.3
+        },
+        "deprecated": {
+          "maxAge": 20,
+          "minFitness": 0
+        }
+      },
+      "archiveEnabled": true,
+      "autoArchive": true,
+      "maxPopulationSize": 1000
+    },
+    "automation": {
+      "autoEvolve": true,
+      "evolutionInterval": 60000,
+      "mutationStrategies": ["gaussian", "uniform", "adaptive"],
+      "selectionMethod": "tournament",
+      "crossoverEnabled": true,
+      "elitePreservation": 0.1,
+      "mutationRate": 0.1
+    },
+    "integration": {
+      "syncEnabled": true
+    }
+  }
+}

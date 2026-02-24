@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "skills": {
+    "local-git-analyzer": {
+      "enabled": true,
+      "cacheTTL": 300000,
+      "description": "Local Git repository analyzer"
+    },
+    "local-skill-hub": {
+      "enabled": true,
+      "autoUpdate": true,
+      "description": "Local skill management hub"
+    },
+    "local-bookmark-index": {
+      "enabled": true,
+      "cacheTTL": 3600000,
+      "autoImport": true,
+      "description": "Local bookmark index for browser bookmarks"
+    }
+  },
+  "cache": {
+    "maxSize": 104857600,
+    "defaultTTL": 3600000
+  },
+  "scheduler": {
+    "enabled": true,
+    "interval": 86400000
+  }
+}

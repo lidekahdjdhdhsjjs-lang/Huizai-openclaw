@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-02-24T16:06:17.967Z",
+  "baseline": {
+    "exec": 0.9746360223422763,
+    "gateway": 0.9066666666666666,
+    "write": 0.999000999000999,
+    "cron": 0.8719512195121951,
+    "read": 0.9523227383863081,
+    "message": 0.7290922087205146,
+    "edit": 0.8687089715536105,
+    "process": 1,
+    "browser": 0.817174515235457,
+    "web_search": 1,
+    "web_fetch": 0.5882352941176471,
+    "memory_search": 1,
+    "session_status": 1,
+    "sessions_list": 0.7777777777777778,
+    "nodes": 1,
+    "memory_get": 1,
+    "sessions_history": 1
+  },
+  "hooks": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "testResults": [
+    {
+      "hookName": "auto-error-fixer",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "Missing HOOK.md"
+      ],
+      "handlerFile": "edit-unique.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "constraint-enforcer",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "edit-unique-text-validator",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "error-handler",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "Missing HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "exec-jq-not-found",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "memory-auto-extract",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "message-auto-retry",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md",
+        "No name defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "message-guild-target-fixer",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md",
+        "No name defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "message-target-fixer",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "message-target-guild-validator",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md",
+        "No name defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "tool-failure-recovery",
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "No events defined in HOOK.md"
+      ],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    },
+    {
+      "hookName": "web-fetch-fallback",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "handlerFile": "handler.js",
+      "syntaxOk": true
+    }
+  ],
+  "recommendations": [
+    {
+      "hook": "auto-error-fixer",
+      "action": "improve",
+      "details": [
+        "Missing HOOK.md"
+      ]
+    },
+    {
+      "hook": "constraint-enforcer",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "edit-unique-text-validator",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "error-handler",
+      "action": "improve",
+      "details": [
+        "Missing HOOK.md"
+      ]
+    },
+    {
+      "hook": "exec-jq-not-found",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "memory-auto-extract",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "message-auto-retry",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md",
+        "No name defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "message-guild-target-fixer",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md",
+        "No name defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "message-target-fixer",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "message-target-guild-validator",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md",
+        "No name defined in HOOK.md"
+      ]
+    },
+    {
+      "hook": "tool-failure-recovery",
+      "action": "improve",
+      "details": [
+        "No events defined in HOOK.md"
+      ]
+    }
+  ]
+}

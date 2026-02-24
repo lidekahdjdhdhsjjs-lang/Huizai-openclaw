@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-02-22",
+  "files": [
+    {
+      "name": "2026-02-22.md",
+      "type": "daily",
+      "tags": ["general", "ongoing"],
+      "summary": "当日主记忆文件"
+    },
+    {
+      "name": "learn-2026-02-22.md",
+      "type": "learning",
+      "tags": ["learning", "daily"],
+      "summary": "当日学习记录"
+    },
+    {
+      "name": "skills-trend.md",
+      "type": "skills",
+      "tags": ["foundry", "skills", "trend"],
+      "summary": "技能趋势分析"
+    },
+    {
+      "name": "customer-service-2026-02-22.md",
+      "type": "company",
+      "tags": ["customer-service", "company"],
+      "summary": "客服项目记录"
+    },
+    {
+      "name": "finance-2026-02-22.md",
+      "type": "learning",
+      "tags": ["finance", "learning"],
+      "summary": "金融学习记录"
+    },
+    {
+      "name": "academic-learn-2026-02-22.md",
+      "type": "learning",
+      "tags": ["academic", "learning"],
+      "summary": "学术学习记录"
+    },
+    {
+      "name": "2026-02-18.md",
+      "type": "daily",
+      "tags": ["general"],
+      "summary": "历史每日记录"
+    },
+    {
+      "name": "learn-2026-02-18.md",
+      "type": "learning",
+      "tags": ["learning"],
+      "summary": "历史学习记录"
+    },
+    {
+      "name": "moltbook-learn-2026-02-18.md",
+      "type": "learning",
+      "tags": ["moltbook", "learning"],
+      "summary": "Moltbook学习记录"
+    },
+    {
+      "name": "issues-fixes/",
+      "type": "company",
+      "tags": ["issues", "fixes", "debugging"],
+      "summary": "问题修复记录目录"
+    }
+  ],
+  "categories": {
+    "daily": "每日记录",
+    "learning": "学习笔记", 
+    "company": "公司配置",
+    "skills": "技能相关"
+  },
+  "retention": {
+    "daily": "7 days",
+    "learning": "30 days",
+    "company": "permanent",
+    "skills": "30 days"
+  }
+}

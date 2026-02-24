@@ -1,0 +1,106 @@
+{
+  "scenes": [
+    {
+      "scene_id": "SCENE_001_青云宗外门",
+      "name": "青云宗外门",
+      "type": "main_location",
+      "description": "青云宗的外门弟子修炼区，群山环绕，云雾缭绕",
+      "visual_elements": ["青石广场", "古朴山门", "云海", "修仙者"],
+      "time_of_day": "白天",
+      "mood": "庄严神圣"
+    },
+    {
+      "scene_id": "SCENE_002_修炼密室",
+      "name": "修炼密室",
+      "type": "interior",
+      "description": "主角的私人修炼空间，简陋但充满灵气",
+      "visual_elements": ["蒲团", "烛火", "玉简", "灵石"],
+      "time_of_day": "不限",
+      "mood": "神秘安静"
+    },
+    {
+      "scene_id": "SCENE_003_万妖山",
+      "name": "万妖山",
+      "type": "exterior",
+      "description": "危险妖兽出没之地，也是历练的绝佳场所",
+      "visual_elements": ["密林", "妖兽", "古树", "灵草"],
+      "time_of_day": "不限",
+      "mood": "危险神秘"
+    },
+    {
+      "scene_id": "SCENE_004_仙山之巅",
+      "name": "仙山之巅",
+      "type": "exterior",
+      "description": "高耸入云的山峰，俯瞰九天大陆",
+      "visual_elements": ["云海", "日出日落", "仙鹤", "灵气"],
+      "time_of_day": "黄金时段",
+      "mood": "壮丽神圣"
+    },
+    {
+      "scene_id": "SCENE_005_城市街道",
+      "name": "凡人城池",
+      "type": "exterior",
+      "description": "热闹的凡人城市，主角的起点",
+      "visual_elements": ["青石街道", "商铺", "行人", "小贩"],
+      "time_of_day": "白天",
+      "mood": "热闹繁忙"
+    }
+  ],
+  "props": [
+    {
+      "prop_id": "PROP_001_七星剑",
+      "name": "七星剑",
+      "type": "weapon",
+      "description": "剑身刻有七星图案，剑穗为红色，主角的随身武器",
+      "visual_elements": ["七星纹路", "红色剑穗", "寒光闪烁"]
+    },
+    {
+      "prop_id": "PROP_002_灵石",
+      "name": "灵石",
+      "type": "consumable",
+      "description": "修炼必备的灵气结晶，淡蓝色发光",
+      "visual_elements": ["淡蓝色", "发光", "晶莹剔透"]
+    },
+    {
+      "prop_id": "PROP_003_玉佩",
+      "name": "神秘玉佩",
+      "type": "accessory",
+      "description": "主角从小佩戴的玉佩，暗藏秘密",
+      "visual_elements": ["古朴纹路", "温润", "暗淡光芒"]
+    },
+    {
+      "prop_id": "PROP_004_丹药",
+      "name": "丹药",
+      "type": "consumable",
+      "description": "各种功效的丹药，辅助修炼",
+      "visual_elements": ["圆形", "光泽", "药香"]
+    },
+    {
+      "prop_id": "PROP_005_仙籍",
+      "name": "仙籍",
+      "type": "document",
+      "description": "记录修士信息的官方文书",
+      "visual_elements": ["金色文字", "符文", "威严"]
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "EFFECT_001_灵气",
+      "name": "灵气效果",
+      "description": "修炼时的灵气聚集效果",
+      "style": "淡蓝色光点环绕"
+    },
+    {
+      "effect_id": "EFFECT_002_突破",
+      "name": "境界突破",
+      "description": "突破境界时的特效",
+      "style": "金光四射，气势爆发"
+    },
+    {
+      "effect_id": "EFFECT_003_剑气",
+      "name": "剑气效果",
+      "description": "释放剑气的视觉特效",
+      "style": "寒光，半透明剑形"
+    }
+  ]
+}

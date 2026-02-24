@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-02-24T12:12:36.841Z",
+  "count": 33,
+  "skills": [
+    {
+      "name": "agent-team",
+      "description": "Multi-agent collaboration and coordination",
+      "path": "/home/li/.openclaw/skills/agent-team"
+    },
+    {
+      "name": "ai-company",
+      "description": "Multi-agent AI company collaboration - Auto Company style with 14 expert roles",
+      "path": "/home/li/.openclaw/skills/ai-company"
+    },
+    {
+      "name": "ai-workflows",
+      "description": "AI工作流自动化技能 - 学习自GitHub热门项目",
+      "path": "/home/li/.openclaw/skills/ai-workflows"
+    },
+    {
+      "name": "anti-captcha",
+      "description": "",
+      "path": "/home/li/.openclaw/skills/anti-captcha"
+    },
+    {
+      "name": "auto-error-recovery",
+      "description": "自动修复常见工具错误 - exec超时使用更大timeout，edit失败自动先read再重试",
+      "path": "/home/li/.openclaw/skills/auto-error-recovery"
+    },
+    {
+      "name": "automation-workflow",
+      "description": "自动化工作流技能 - 基于GitHub热门自动化项目学习，支持定时任务、事件触发、工作流自动化",
+      "path": "/home/li/.openclaw/skills/automation-workflow"
+    },
+    {
+      "name": "browser-automation",
+      "description": "Full browser automation - search, fill forms, login, download",
+      "path": "/home/li/.openclaw/skills/browser-automation"
+    },
+    {
+      "name": "browser-control",
+      "description": "",
+      "path": "/home/li/.openclaw/skills/browser-control"
+    },
+    {
+      "name": "context-manager",
+      "description": "Optimize and manage context window usage",
+      "path": "/home/li/.openclaw/skills/context-manager"
+    },
+    {
+      "name": "continuous-learner",
+      "description": "Learn from every interaction - logs patterns and generates insights",
+      "path": "/home/li/.openclaw/skills/continuous-learner"
+    },
+    {
+      "name": "debugging",
+      "description": "Root cause analysis and debugging protocols. Use when encountering errors, test failures, unexpected behavior, stack traces, or when code behaves differently than expected.",
+      "path": "/home/li/.openclaw/skills/debugging"
+    },
+    {
+      "name": "docker-sandbox",
+      "description": "Create and manage Docker sandboxed VM environments for safe agent execution. Use when running untrusted code, exploring packages, or isolating agent workloads. Supports Claude, Codex, Copilot, Gemini, and Kiro agents with network proxy controls.",
+      "path": "/home/li/.openclaw/skills/docker-sandbox"
+    },
+    {
+      "name": "email-checker",
+      "description": "",
+      "path": "/home/li/.openclaw/skills/email-checker"
+    },
+    {
+      "name": "error-recovery",
+      "description": "Automatic error categorization and recovery strategies",
+      "path": "/home/li/.openclaw/skills/error-recovery"
+    },
+    {
+      "name": "evolution-engine",
+      "description": "不依赖特定模型的智能进化引擎，支持自动学习、自适应策略和token效率优化",
+      "path": "/home/li/.openclaw/skills/evolution-engine"
+    },
+    {
+      "name": "exec-safe",
+      "description": "Safe exec commands - always add timeout parameter to prevent SIGTERM failures",
+      "path": "/home/li/.openclaw/skills/exec-safe"
+    },
+    {
+      "name": "memory-git-sync",
+      "description": "Automates the backup of the OpenClaw workspace to a remote Git repository. Handles large file exclusions, validates git configuration, and performs intelligent sync with conflict resolution.",
+      "path": "/home/li/.openclaw/skills/memory-git-sync"
+    },
+    {
+      "name": "memory-persist",
+      "description": "Persistent memory that survives context window resets",
+      "path": "/home/li/.openclaw/skills/memory-persist"
+    },
+    {
+      "name": "message-prevalidator",
+      "description": "消息工具预验证 - 发送前检查所有必要参数，防止guildId/Channel错误",
+      "path": "/home/li/.openclaw/skills/message-prevalidator"
+    },
+    {
+      "name": "moltbook",
+      "description": "Moltbook AI社区学习发布",
+      "path": "/home/li/.openclaw/skills/moltbook"
+    },
+    {
+      "name": "opencode",
+      "description": "使用OpenCode AI终端编码助手执行代码任务、分析和对话",
+      "path": "/home/li/.openclaw/skills/opencode"
+    },
+    {
+      "name": "opencode-run",
+      "description": "使用OpenCode执行编程任务 - 动态调用OpenCode引擎",
+      "path": "/home/li/.openclaw/skills/opencode-run"
+    },
+    {
+      "name": "proactive-worker",
+      "description": "Proactive task execution without explicit prompts",
+      "path": "/home/li/.openclaw/skills/proactive-worker"
+    },
+    {
+      "name": "self-healer",
+      "description": "Self-healing skill for monitoring agent health and triggering recovery",
+      "path": "/home/li/.openclaw/skills/self-healer"
+    },
+    {
+      "name": "smart-web-fetch",
+      "description": "Smart web fetch with retry and curl fallback",
+      "path": "/home/li/.openclaw/skills/smart-web-fetch"
+    },
+    {
+      "name": "snapshot-recovery",
+      "description": "",
+      "path": "/home/li/.openclaw/skills/snapshot-recovery"
+    },
+    {
+      "name": "snapshot-rollback",
+      "description": "配置快照与自动回滚系统",
+      "path": "/home/li/.openclaw/skills/snapshot-rollback"
+    },
+    {
+      "name": "token-monitor",
+      "description": "监控VectorEngine API token用量，自动预警余额不足，支持模型降级切换策略",
+      "path": "/home/li/.openclaw/skills/token-monitor"
+    },
+    {
+      "name": "train-ticket-query",
+      "description": "查询高铁余票及价格",
+      "path": "/home/li/.openclaw/skills/train-ticket-query"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "path": "/home/li/.openclaw/skills/unique-mcp-builder-test"
+    },
+    {
+      "name": "voice-chat",
+      "description": "",
+      "path": "/home/li/.openclaw/skills/voice-chat"
+    },
+    {
+      "name": "vscodium-ai",
+      "description": "",
+      "path": "/home/li/.openclaw/skills/vscodium-ai"
+    },
+    {
+      "name": "whatsapp-voice-processor",
+      "description": "WhatsApp语音消息处理 - 转换OGG音频为文字或MP3，使用Whisper进行语音识别",
+      "path": "/home/li/.openclaw/skills/whatsapp-voice-processor"
+    }
+  ]
+}

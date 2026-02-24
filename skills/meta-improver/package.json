@@ -1,0 +1,9 @@
+{
+  "name": "meta-improver",
+  "version": "1.0.0",
+  "description": "Self-improving system for OpenClaw - analyzes, plans, and executes optimizations automatically",
+  "main": "index.js",
+  "keywords": ["meta", "improver", "self-improvement", "automation", "optimization"],
+  "license": "MIT",
+  "dependencies": {}
+}

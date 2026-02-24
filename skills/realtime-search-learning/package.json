@@ -1,0 +1,15 @@
+{
+  "name": "realtime-search-learning",
+  "version": "1.0.0",
+  "description": "Realtime search learning skill for OpenClaw",
+  "main": "index.js",
+  "scripts": {
+    "search": "node index.js search",
+    "learn": "node index.js learn",
+    "cycle": "node index.js cycle",
+    "report": "node index.js report"
+  },
+  "keywords": ["openclaw", "search", "learning", "ai"],
+  "author": "OpenClaw System",
+  "license": "MIT"
+}

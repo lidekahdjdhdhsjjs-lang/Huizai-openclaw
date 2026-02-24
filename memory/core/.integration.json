@@ -1,0 +1,31 @@
+{
+  "syncLog": [
+    {
+      "source": "foundry",
+      "action": "sync",
+      "details": {
+        "learningsCount": 7019,
+        "metricsCount": 16,
+        "insightsCount": 20
+      },
+      "timestamp": "2026-02-23T11:38:55.700Z"
+    },
+    {
+      "source": "sessions",
+      "action": "error",
+      "details": {
+        "error": "require is not defined"
+      },
+      "timestamp": "2026-02-23T11:38:55.701Z"
+    },
+    {
+      "source": "sessions",
+      "action": "error",
+      "details": {
+        "error": "require is not defined"
+      },
+      "timestamp": "2026-02-23T11:38:55.702Z"
+    }
+  ],
+  "lastUpdated": "2026-02-23T11:38:55.702Z"
+}

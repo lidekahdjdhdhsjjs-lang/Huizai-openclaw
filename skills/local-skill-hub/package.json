@@ -1,0 +1,8 @@
+{
+  "name": "local-skill-hub",
+  "version": "1.0.0",
+  "description": "Local skill management hub - no external APIs needed",
+  "main": "index.js",
+  "keywords": ["skill", "hub", "manager", "local"],
+  "license": "MIT"
+}

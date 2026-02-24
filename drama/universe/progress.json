@@ -1,0 +1,11 @@
+{
+  "total_episodes": 100,
+  "completed_episodes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "next_episode": 5,
+  "last_generated": "2026-02-24 15:16:50"
+}

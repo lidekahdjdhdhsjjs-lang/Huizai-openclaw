@@ -3,3 +3,5 @@
 - web_fetch DNS fail → use `curl --proxy` instead
 - browser unreachable → skip or use Playwright
 - exec SIGTERM → add timeout param
+
+- Rate limiting: built-in

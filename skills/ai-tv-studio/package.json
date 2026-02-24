@@ -1,0 +1,28 @@
+{
+  "name": "ai-tv-studio",
+  "version": "1.0.0",
+  "description": "AI电视剧全自动生产系统 - 从剧本生成到多平台发布的完整工作流",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "bash scripts/test-episode.sh",
+    "setup": "bash scripts/setup.sh",
+    "produce": "node index.js produce",
+    "publish": "node index.js publish",
+    "status": "node index.js status"
+  },
+  "keywords": [
+    "openclaw",
+    "ai",
+    "tv-series",
+    "video-production",
+    "automation",
+    "text-to-speech",
+    "ffmpeg"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

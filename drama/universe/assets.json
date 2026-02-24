@@ -1,0 +1,43 @@
+{
+  "scenes": [
+    {
+      "scene_id": "SCENE_001_GU_MANSION",
+      "description": "顾家豪宅客厅，水晶吊灯，实木家具",
+      "fixed_elements": "水晶吊灯、真皮沙发、落地窗"
+    },
+    {
+      "scene_id": "SCENE_002_WEDDING_VENUE",
+      "description": "五星级酒店婚礼现场，白玫瑰装饰",
+      "fixed_elements": "白玫瑰拱门、T台、司仪台"
+    },
+    {
+      "scene_id": "SCENE_003_GU_CORPORATION",
+      "description": "顾氏集团总部，现代化的玻璃幕墙大楼",
+      "fixed_elements": "前台Logo、总裁办公室、会议厅"
+    },
+    {
+      "scene_id": "SCENE_004_UNIVERSITY",
+      "description": "知名大学校园，樱花树下",
+      "fixed_elements": "樱花树、图书馆、长椅"
+    },
+    {
+      "scene_id": "SCENE_005_STREET_NIGHT",
+      "description": "雨夜街头，路灯下的孤独身影",
+      "fixed_elements": "路灯、雨滴、霓虹灯"
+    }
+  ],
+  "props": [
+    {
+      "prop_id": "PROP_001_RING",
+      "description": "顾家传家戒指，钻戒款式"
+    },
+    {
+      "prop_id": "PROP_002_CONTRACT",
+      "description": "退婚协议合同"
+    },
+    {
+      "prop_id": "PROP_003_KEY",
+      "description": "顾氏集团总裁办公室钥匙"
+    }
+  ]
+}

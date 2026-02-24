@@ -1,0 +1,117 @@
+{
+  "characters": [
+    {
+      "char_id": "CHAR_001_林尘",
+      "name": "林尘",
+      "role": "主角",
+      "gender": "男",
+      "age": "18",
+      "personality": "坚毅不拔，重情重义，面对困难永不放弃",
+      "arc": "从市井少年到一代仙帝的成长历程",
+      "voice": "zh-CN-YunxiNeural",
+      "voice_rate": "+0%",
+      "voice_pitch": "+0Hz",
+      "appearance_fixed": {
+        "face": "剑眉星目，棱角分明，左眉角有细疤",
+        "hair": "黑色长发，常用青色发带束起",
+        "build": "修长挺拔，身形矫健",
+        "costume": "青色长衫，腰间佩玉",
+        "special_features": ["左眉细疤", "青色发带", "腰间玉佩"]
+      },
+      "cultivation": {
+        "starting_level": "凡人",
+        "current_level": "凡人",
+        "special_abilities": ["坚韧意志"]
+      }
+    },
+    {
+      "char_id": "CHAR_002_苏灵儿",
+      "name": "苏灵儿",
+      "role": "女主",
+      "gender": "女",
+      "age": "17",
+      "personality": "灵动可爱，聪慧过人，对主角忠心不二",
+      "arc": "神秘身世逐渐揭开，与主角并肩作战",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "voice_rate": "+0%",
+      "voice_pitch": "+0Hz",
+      "appearance_fixed": {
+        "face": "清秀绝伦，灵气逼人",
+        "hair": "白色长发，自然散落",
+        "build": "娇小玲珑",
+        "costume": "白色仙裙，飘逸如雪",
+        "special_features": ["白色长发", "仙气飘飘", "眼眸如星"]
+      },
+      "cultivation": {
+        "starting_level": "筑基期",
+        "current_level": "筑基期",
+        "special_abilities": ["神秘血脉", "感知能力强"]
+      }
+    },
+    {
+      "char_id": "CHAR_003_玄老",
+      "name": "玄老",
+      "role": "师父",
+      "gender": "男",
+      "age": "外表60+",
+      "personality": "威严智慧，护短严厉，关键时刻出手相助",
+      "arc": "传授主角修炼之道，暗中保护",
+      "voice": "zh-CN-YunjianNeural",
+      "voice_rate": "-10%",
+      "voice_pitch": "-10Hz",
+      "appearance_fixed": {
+        "face": "仙风道骨，白须飘飘",
+        "hair": "银白色长发和胡须",
+        "build": "瘦削但精神矍铄",
+        "costume": "灰色道袍，手持拂尘",
+        "special_features": ["白须", "道袍", "拂尘"]
+      },
+      "cultivation": {
+        "starting_level": "化神期",
+        "current_level": "化神期",
+        "special_abilities": ["深厚修为", "阵法精通"]
+      }
+    },
+    {
+      "char_id": "CHAR_004_魔尊",
+      "name": "魔尊",
+      "role": "反派",
+      "gender": "男",
+      "age": "外表35",
+      "personality": "阴冷邪魅，野心勃勃，不择手段",
+      "arc": "与主角对立，多次交锋",
+      "voice": "zh-CN-YunyangNeural",
+      "voice_rate": "-5%",
+      "voice_pitch": "-5Hz",
+      "appearance_fixed": {
+        "face": "阴俊邪美，眼神阴鸷",
+        "hair": "黑色长发，散乱不羁",
+        "build": "高大威猛",
+        "costume": "黑色魔袍，周身魔气缭绕",
+        "special_features": ["阴鸷眼神", "魔气", "黑色魔袍"]
+      },
+      "cultivation": {
+        "starting_level": "合体期",
+        "current_level": "合体期",
+        "special_abilities": ["魔道功法", "控制妖魔"]
+      }
+    },
+    {
+      "char_id": "CHAR_005_旁白",
+      "name": "旁白",
+      "role": "旁白",
+      "gender": "neutral",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "voice_rate": "-5%",
+      "voice_pitch": "+0Hz",
+      "description": "客观叙述剧情发展，语气沉稳"
+    }
+  ],
+  "voice_mapping": {
+    "male_protagonist": "zh-CN-YunxiNeural",
+    "female_protagonist": "zh-CN-XiaoxiaoNeural",
+    "elder_male": "zh-CN-YunjianNeural",
+    "villain_male": "zh-CN-YunyangNeural",
+    "narrator": "zh-CN-XiaoxiaoNeural"
+  }
+}

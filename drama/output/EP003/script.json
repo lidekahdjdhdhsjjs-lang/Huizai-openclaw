@@ -1,0 +1,241 @@
+{
+  "episode": 3,
+  "title": "第3集：回到大学",
+  "shots": [
+    {
+      "shot": 1,
+      "duration": "10秒",
+      "scene": "场景1",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 1, high quality",
+      "dialogue": "这是第1个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 2,
+      "duration": "10秒",
+      "scene": "场景2",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 2, high quality",
+      "dialogue": "这是第2个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 3,
+      "duration": "10秒",
+      "scene": "场景3",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 3, high quality",
+      "dialogue": "这是第3个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 4,
+      "duration": "10秒",
+      "scene": "场景4",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 4, high quality",
+      "dialogue": "这是第4个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 5,
+      "duration": "10秒",
+      "scene": "场景5",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 5, high quality",
+      "dialogue": "这是第5个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 6,
+      "duration": "10秒",
+      "scene": "场景6",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 6, high quality",
+      "dialogue": "这是第6个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 7,
+      "duration": "10秒",
+      "scene": "场景7",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 7, high quality",
+      "dialogue": "这是第7个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 8,
+      "duration": "10秒",
+      "scene": "场景8",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 8, high quality",
+      "dialogue": "这是第8个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 9,
+      "duration": "10秒",
+      "scene": "场景9",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 9, high quality",
+      "dialogue": "这是第9个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 10,
+      "duration": "10秒",
+      "scene": "场景10",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 10, high quality",
+      "dialogue": "这是第10个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 11,
+      "duration": "10秒",
+      "scene": "场景11",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 11, high quality",
+      "dialogue": "这是第11个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 12,
+      "duration": "10秒",
+      "scene": "场景12",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 12, high quality",
+      "dialogue": "这是第12个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 13,
+      "duration": "10秒",
+      "scene": "场景13",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 13, high quality",
+      "dialogue": "这是第13个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 14,
+      "duration": "10秒",
+      "scene": "场景14",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 14, high quality",
+      "dialogue": "这是第14个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 15,
+      "duration": "10秒",
+      "scene": "场景15",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 15, high quality",
+      "dialogue": "这是第15个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 16,
+      "duration": "10秒",
+      "scene": "场景16",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 16, high quality",
+      "dialogue": "这是第16个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 17,
+      "duration": "10秒",
+      "scene": "场景17",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 17, high quality",
+      "dialogue": "这是第17个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    },
+    {
+      "shot": 18,
+      "duration": "10秒",
+      "scene": "场景18",
+      "characters": [
+        "顾阳"
+      ],
+      "visual_prompt": "A handsome man in modern business suit, scene 18, high quality",
+      "dialogue": "这是第18个镜头的对白",
+      "emotion": "neutral",
+      "camera": "中景",
+      "sound": "背景音乐"
+    }
+  ],
+  "generated": "2026-02-24T15:00:50.686032"
+}

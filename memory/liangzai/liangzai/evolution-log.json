@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-02-23T07:48:18.434Z",
+      "crystallizable": 5,
+      "hooksGenerated": 4,
+      "validationPassed": 7
+    },
+    {
+      "timestamp": "2026-02-23T08:05:06.392Z",
+      "crystallizable": 5,
+      "hooksGenerated": 4,
+      "validationPassed": 11
+    },
+    {
+      "timestamp": "2026-02-23T08:20:53.339Z",
+      "lifeState": "normal",
+      "balance": 950,
+      "crystallizable": 5
+    },
+    {
+      "timestamp": "2026-02-23T08:34:55.373Z",
+      "lifeState": "prosperity",
+      "balance": 2390,
+      "crystallizable": 5
+    },
+    {
+      "timestamp": "2026-02-23T12:04:20.979Z",
+      "lifeState": "prosperity",
+      "balance": 10129,
+      "crystallizable": 5
+    },
+    {
+      "timestamp": "2026-02-23T12:05:02.129Z",
+      "crystallizable": 5,
+      "hooksGenerated": 4,
+      "validationPassed": 21
+    },
+    {
+      "timestamp": "2026-02-23T16:04:05.703Z",
+      "lifeState": "prosperity",
+      "balance": 18868,
+      "crystallizable": 5
+    },
+    {
+      "timestamp": "2026-02-23T16:04:59.611Z",
+      "crystallizable": 5,
+      "hooksGenerated": 4,
+      "validationPassed": 25
+    },
+    {
+      "timestamp": "2026-02-23T20:07:57.022Z",
+      "crystallizable": 5,
+      "hooksGenerated": 4,
+      "validationPassed": 27
+    },
+    {
+      "timestamp": "2026-02-23T20:08:37.093Z",
+      "lifeState": "prosperity",
+      "balance": 29607,
+      "crystallizable": 5
+    },
+    {
+      "timestamp": "2026-02-24T00:06:12.365Z",
+      "crystallizable": 5,
+      "hooksGenerated": 4,
+      "validationPassed": 31
+    },
+    {
+      "timestamp": "2026-02-24T00:07:27.772Z",
+      "lifeState": "prosperity",
+      "balance": 43346,
+      "crystallizable": 5
+    },
+    {
+      "timestamp": "2026-02-24T08:05:02.322Z",
+      "lifeState": "prosperity",
+      "balance": 59085,
+      "crystallizable": 0
+    },
+    {
+      "timestamp": "2026-02-24T08:05:25.096Z",
+      "crystallizable": 0,
+      "hooksGenerated": 4,
+      "validationPassed": 8
+    },
+    {
+      "timestamp": "2026-02-24T12:11:48.408Z",
+      "lifeState": "prosperity",
+      "balance": 59724,
+      "crystallizable": 0
+    },
+    {
+      "timestamp": "2026-02-24T12:12:36.965Z",
+      "crystallizable": 0,
+      "hooksGenerated": 4,
+      "validationPassed": 10
+    }
+  ]
+}

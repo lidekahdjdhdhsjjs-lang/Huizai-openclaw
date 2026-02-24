@@ -1,0 +1,18 @@
+{
+  "actions": [
+    {
+      "timestamp": "2026-02-22T18:35:23.278352",
+      "action": "\u53d1\u5e03ClawHub\u6280\u80fd",
+      "result": "success",
+      "details": "\u6210\u529f\u53d1\u5e033\u4e2a\u6280\u80fd\u5230ClawHub"
+    }
+  ],
+  "insights": [
+    {
+      "timestamp": "2026-02-22T18:35:23.278368",
+      "type": "success",
+      "content": "\u884c\u52a8 '\u53d1\u5e03ClawHub\u6280\u80fd' \u6210\u529f\uff0c\u53ef\u7ee7\u7eed\u4f18\u5316"
+    }
+  ],
+  "improvements": []
+}

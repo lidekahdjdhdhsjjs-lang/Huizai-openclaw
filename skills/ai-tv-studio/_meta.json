@@ -1,0 +1,16 @@
+{
+  "name": "ai-tv-studio",
+  "version": "1.0.0",
+  "description": "AI电视剧全自动生产系统",
+  "author": "OpenClaw",
+  "created_at": "2026-02-24",
+  "tags": ["video", "ai", "automation", "tv-series"],
+  "entry_point": "index.js",
+  "commands": {
+    "test": "生成测试视频",
+    "init": "初始化新剧",
+    "produce": "生成剧集",
+    "publish": "发布视频",
+    "status": "查看状态"
+  }
+}

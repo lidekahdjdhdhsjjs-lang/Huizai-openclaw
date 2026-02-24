@@ -1,0 +1,20 @@
+{
+  "instance": "liangzai",
+  "name": "亮仔",
+  "role": "primary",
+  "ip": "192.168.1.5",
+  "timestamp": "2026-02-23T07:54:37.055Z",
+  "system": {
+    "memoryUsage": 61,
+    "uptime": "up 4 days, 6 hours, 5 minutes"
+  },
+  "learning": {
+    "patterns": 6939,
+    "crystallized": 194
+  },
+  "tasks": {
+    "total": 14,
+    "enabled": 14,
+    "errors": 0
+  }
+}

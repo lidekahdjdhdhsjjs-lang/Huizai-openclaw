@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "skills": {
+    "web-search": {
+      "version": "1.0.0",
+      "installedAt": 1771043079302
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1771043084786
+    },
+    "remindme": {
+      "version": "2.0.2",
+      "installedAt": 1771043087354
+    },
+    "newsletter-digest": {
+      "version": "1.0.0",
+      "installedAt": 1771043089355
+    },
+    "openclaw-github-assistant": {
+      "version": "2.0.1",
+      "installedAt": 1771043096164
+    },
+    "file-organizer-skill": {
+      "version": "1.0.0",
+      "installedAt": 1771043097931
+    },
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1771043105207
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1771043106829
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1771043109414
+    },
+    "clawpressor": {
+      "version": "1.0.0",
+      "installedAt": 1771043182386
+    },
+    "coding": {
+      "version": "1.0.0",
+      "installedAt": 1771048703309
+    },
+    "docker": {
+      "version": "1.0.2",
+      "installedAt": 1771048716786
+    },
+    "git-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1771048718562
+    },
+    "self-evolving-skill": {
+      "version": "1.0.2",
+      "installedAt": 1771048752719
+    },
+    "recursive-self-improvement": {
+      "version": "1.0.0",
+      "installedAt": 1771049255562
+    },
+    "debug-pro": {
+      "version": "1.0.0",
+      "installedAt": 1771049257237
+    },
+    "cron-retry": {
+      "version": "1.0.0",
+      "installedAt": 1771049259197
+    },
+    "resiliant-connections": {
+      "version": "1.0.0",
+      "installedAt": 1771049296206
+    },
+    "api-error-handling": {
+      "version": "1.0.0",
+      "installedAt": 1771049303395
+    },
+    "healthcheck": {
+      "version": "1.0.2",
+      "installedAt": 1771049330497
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1771049381017
+    },
+    "restart-guard": {
+      "version": "1.1.0",
+      "installedAt": 1771049400359
+    },
+    "error-guard": {
+      "version": "1.0.0",
+      "installedAt": 1771049402479
+    },
+    "proactive-tasks": {
+      "version": "1.2.3",
+      "installedAt": 1771049732098
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1771085467479
+    },
+    "bocha-search": {
+      "version": "1.0.0",
+      "installedAt": 1771085495753
+    },
+    "brave-images": {
+      "version": "1.0.1",
+      "installedAt": 1771085508870
+    },
+    "academic-deep-research": {
+      "version": "1.0.0",
+      "installedAt": 1771085527186
+    },
+    "agentarxiv": {
+      "version": "1.0.9",
+      "installedAt": 1771085571065
+    },
+    "baidu-search": {
+      "version": "1.1.0",
+      "installedAt": 1771085615364
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1771115888978
+    },
+    "qveris": {
+      "version": "0.1.0",
+      "installedAt": 1771122425277
+    },
+    "browser-use": {
+      "version": "1.0.0",
+      "installedAt": 1771124144367
+    },
+    "webhook": {
+      "version": "1.0.0",
+      "installedAt": 1771124161120
+    },
+    "tavily": {
+      "version": "1.0.0",
+      "installedAt": 1771124204059
+    },
+    "memory": {
+      "version": "1.0.0",
+      "installedAt": 1771124291590
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1771124669221
+    },
+    "github-automation-pro": {
+      "version": "1.0.0",
+      "installedAt": 1771124683759
+    },
+    "slack": {
+      "version": "1.0.0",
+      "installedAt": 1771124693998
+    },
+    "code-review": {
+      "version": "1.0.0",
+      "installedAt": 1771136926056
+    },
+    "receiving-code-review": {
+      "version": "0.1.0",
+      "installedAt": 1771136965743
+    },
+    "e2e-testing-patterns": {
+      "version": "1.0.0",
+      "installedAt": 1771137224490
+    },
+    "kubernetes": {
+      "version": "1.0.0",
+      "installedAt": 1771338240589
+    },
+    "linux-service-triage": {
+      "version": "1.0.0",
+      "installedAt": 1771338242656
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1771338244733
+    },
+    "tmux": {
+      "version": "1.0.0",
+      "installedAt": 1771338248060
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1771338331634
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1771338333866
+    },
+    "web-scraper-as-a-service": {
+      "version": "1.0.0",
+      "installedAt": 1771338372081
+    },
+    "memory-git-sync": {
+      "version": "1.0.0",
+      "installedAt": 1771371504339
+    },
+    "docker-sandbox": {
+      "version": "1.0.0",
+      "installedAt": 1771384986179
+    },
+    "unique-mcp-builder-test": {
+      "version": "0.1.0",
+      "installedAt": 1771385017799
+    },
+    "self-improving": {
+      "version": "1.1.0",
+      "installedAt": 1771752584787
+    },
+    "capability-evolver": {
+      "version": "1.14.0",
+      "installedAt": 1771761461688
+    },
+    "evolver": {
+      "version": "1.14.0",
+      "installedAt": 1771762086082
+    },
+    "feishu-evolver-wrapper": {
+      "version": "1.6.1",
+      "installedAt": 1771762089198
+    }
+  }
+}

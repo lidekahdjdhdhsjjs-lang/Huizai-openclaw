@@ -1,0 +1,187 @@
+{
+  "hooks": [
+    {
+      "name": "auto-fix-cron-mlyvfvaa",
+      "publishedAt": "2026-02-23T09:13:37.871Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlyvk66n",
+      "publishedAt": "2026-02-23T09:13:37.871Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlyvsa8q",
+      "publishedAt": "2026-02-23T09:13:37.871Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlyw5rxl",
+      "publishedAt": "2026-02-23T09:14:27.842Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlywq2jo",
+      "publishedAt": "2026-02-23T09:14:27.842Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlyx849j",
+      "publishedAt": "2026-02-23T09:14:27.843Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlyzooq3",
+      "publishedAt": "2026-02-23T09:43:47.646Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlyvfvaa",
+      "publishedAt": "2026-02-23T09:43:47.646Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlyvk66n",
+      "publishedAt": "2026-02-23T09:43:47.646Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlyvsa8q",
+      "publishedAt": "2026-02-23T12:02:48.930Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlyw5rxl",
+      "publishedAt": "2026-02-23T12:02:48.931Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlywq2jo",
+      "publishedAt": "2026-02-23T12:02:48.931Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlz4pfxd",
+      "publishedAt": "2026-02-23T16:03:33.671Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlz4qbr5",
+      "publishedAt": "2026-02-23T16:03:33.671Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlyx849j",
+      "publishedAt": "2026-02-23T16:03:33.671Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlzd9r99",
+      "publishedAt": "2026-02-23T20:02:53.487Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlzdawx5",
+      "publishedAt": "2026-02-23T20:02:53.487Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlyzooq3",
+      "publishedAt": "2026-02-23T20:02:53.487Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlzlzcx9",
+      "publishedAt": "2026-02-24T00:02:53.235Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-cron-mlzm07s9",
+      "publishedAt": "2026-02-24T00:02:53.235Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "auto-fix-exec-mlz4pfxd",
+      "publishedAt": "2026-02-24T00:02:53.235Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "message-auto-retry",
+      "publishedAt": "2026-02-24T08:03:12.555Z",
+      "value": 70,
+      "price": 7,
+      "sales": 0
+    },
+    {
+      "name": "message-guild-target-fixer",
+      "publishedAt": "2026-02-24T08:03:12.555Z",
+      "value": 70,
+      "price": 7,
+      "sales": 0
+    },
+    {
+      "name": "web-fetch-fallback",
+      "publishedAt": "2026-02-24T08:03:12.555Z",
+      "value": 70,
+      "price": 7,
+      "sales": 0
+    },
+    {
+      "name": "message-target-fixer",
+      "publishedAt": "2026-02-24T12:12:01.160Z",
+      "value": 50,
+      "price": 5,
+      "sales": 0
+    },
+    {
+      "name": "message-target-guild-validator",
+      "publishedAt": "2026-02-24T16:05:33.516Z",
+      "value": 20,
+      "price": 2,
+      "sales": 0
+    }
+  ],
+  "totalEarnings": 0
+}

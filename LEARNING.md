@@ -166,3 +166,23 @@
 
 ## Web 最新AI Agent 动态
 - 使用 web-search 技能搜索
+
+
+### 2026-02-23
+
+## GitHub OpenClaw 最新动态
+- [exec tool fails with EAGAIN - not in retry codes](https://github.com/openclaw/openclaw/issues/24024)
+- [[Bug]: Telegram webhook mode causes infinite restart loop (EADDRINUSE 127.0.0.1:8787)](https://github.com/openclaw/openclaw/issues/24023)
+- [Control UI: previous message sometimes gets pasted into the next message (composer duplication)](https://github.com/openclaw/openclaw/issues/24022)
+- [Control UI: chat does not render image attachments](https://github.com/openclaw/openclaw/issues/24021)
+- [fix(memory): keep qmd capped output prefix](https://github.com/openclaw/openclaw/pull/24020)
+
+## GitHub Discussions
+- Welcome to clawdis Discussions!
+- Support for multiple chats with a single Clawd instace
+- Feature Request: have clawd suggest Vaultwarden via docker instead of storing plaintext passwords
+- Expose OpenAI-compatible endpoint
+- IMAP and SMTP as message channel
+
+## Web 最新AI Agent 动态
+- 使用 web-search 技能搜索

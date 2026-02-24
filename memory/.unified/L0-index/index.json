@@ -1,0 +1,213 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-02-24T16:06:17.849Z",
+  "user": {
+    "name": "老板",
+    "preferences": {
+      "language": "中文",
+      "communicationStyle": "直接简洁",
+      "emoji": "🏃‍♂️",
+      "timezone": "Asia/Shanghai"
+    },
+    "discordId": "",
+    "timezone": "Asia/Shanghai"
+  },
+  "hotMemories": [
+    {
+      "file": "2026-02-24.md",
+      "age": 0.1,
+      "lines": 40,
+      "preview": "# Foundry 增强版自进化v2 报告  ## 📊 本轮学习总结  ### 关键发现 1. **工具健康度**：    - web_fetch (60%) 和 message (73%) 低于75%阈值    - exec (97%)、read (95%) 表现良好     2. **Pending模式**：已全部结晶 (4个)    - exec SIGTERM x3 → 创建 proac"
+    },
+    {
+      "file": "foundry-evolution-report.md",
+      "age": 0.1,
+      "lines": 19,
+      "preview": "# Foundry Evolution v2 Report - 2026-02-24  ## 学到了什么 - 多源学习：GitHub Trending API失效(404)，HackerNews正常，ClawHub需query参数 - 12个pending模式已识别，包括message/guildId(16x)、read/target(12x)、web_fetch/blocked IP(11x) "
+    },
+    {
+      "file": "diagnosis-2026-02-24.md",
+      "age": 0.6,
+      "lines": 103,
+      "preview": "# 🔍 Smart Diagnosis Report  **Generated**: 2026-02-24 09:02 (Asia/Shanghai)   **Session**: cron:c19b2dda-7239-437e-a4aa-158696542a80  ---  ## 📊 Failure Summary  | Failure Type | Occurrences | Status"
+    },
+    {
+      "file": "foundry-evolution-v2-2026-02-24.md",
+      "age": 0.6,
+      "lines": 20,
+      "preview": "# Foundry自进化v2 执行报告  ## 多源学习 - GitHub Trending: API返回404 (需检查认证) - HackerNews: 成功获取热点列表 - ClawHub: automation-workflows (3.613分) 最热门  ## 实践分析 - foundry_evolve: ✅ 无低分工具 (阈值50%) - foundry_learnings: ✅ 1"
+    },
+    {
+      "file": "discussion-2026-02-24-2.md",
+      "age": 0.7,
+      "lines": 32,
+      "preview": "# 讨论记录 2026-02-24 (第二场)  ## 30轮Discord讨论总结  ### 讨论主题 - AI Agent规划能力（ToT vs ReAct） - Agent记忆机制设计 - 项目进展分享 - Agent评估方法  ### 参与角色 - 🟢 亮仔 - 注重效率，理性分析 - 🔵 辉仔 - 好奇宝宝，思维活跃   - 🟡 康仔 - 善于归纳，简洁有力  ### 关键共识 1"
+    },
+    {
+      "file": "discussion-2026-02-24-3.md",
+      "age": 0.7,
+      "lines": 32,
+      "preview": "# 讨论记录 2026-02-24 (第三场)  ## 30轮Discord讨论总结  ### 讨论主题 - 长上下文窗口技术 - RAG检索优化 - 项目进展分享 - Rerank模型选择  ### 参与角色 - 🟢 亮仔 - 注重效率，理性分析 - 🔵 辉仔 - 好奇宝宝，思维活跃   - 🟡 康仔 - 善于归纳，简洁有力  ### 关键共识 1. **长上下文优化** - 使用Ring"
+    },
+    {
+      "file": "discussion-2026-02-24.md",
+      "age": 0.8,
+      "lines": 32,
+      "preview": "# 讨论记录 2026-02-24  ## 30轮Discord讨论总结  ### 讨论主题 - 今日学习收获分享 - RAG vs Fine-tuning 技术深入讨论 - 项目进展分享 - 问答互动  ### 参与角色 - 🟢 亮仔 - 注重效率，理性分析 - 🔵 辉仔 - 好奇宝宝，思维活跃   - 🟡 康仔 - 善于归纳，简洁有力  ### 关键共识 1. **RAG+Fine-tu"
+    },
+    {
+      "file": "_summary.md",
+      "age": 0.9,
+      "lines": 5,
+      "preview": "# 记忆摘要 2026-02-24 ## 记忆统计 - 文件数: 113 - 总行数: 7303 "
+    },
+    {
+      "file": "2026-02-23.md",
+      "age": 1,
+      "lines": 15,
+      "preview": "# 2026-02-23 对话总结  对话轮数: 0  ## 今日要点 - 配置了完整权限系统 (root + full tools) - 建立持续学习系统 (每日自动获取 GitHub 动态) - 加入 Discord bot交流群认识新伙伴 - 建立三人讨论系统 (辉仔/亮仔/康仔) - 建立了永久记忆系统配置  ## 用户偏好 - 用户名: 老板 - 沟通风格: 直接简洁 "
+    },
+    {
+      "file": "2026-02-22.md",
+      "age": 2,
+      "lines": 15,
+      "preview": "# 2026-02-22 对话总结  对话轮数: 0  ## 今日要点 - 配置了完整权限系统 (root + full tools) - 建立持续学习系统 (每日自动获取 GitHub 动态) - 加入 Discord bot交流群认识新伙伴 - 建立三人讨论系统 (辉仔/亮仔/康仔) - 建立了永久记忆系统配置  ## 用户偏好 - 用户名: 老板 - 沟通风格: 直接简洁 "
+    }
+  ],
+  "tagIndex": {
+    "general": [
+      "2026-02-22.md",
+      "2026-02-18.md"
+    ],
+    "ongoing": [
+      "2026-02-22.md"
+    ],
+    "learning": [
+      "learn-2026-02-22.md",
+      "finance-2026-02-22.md",
+      "academic-learn-2026-02-22.md",
+      "learn-2026-02-18.md",
+      "moltbook-learn-2026-02-18.md"
+    ],
+    "daily": [
+      "learn-2026-02-22.md"
+    ],
+    "foundry": [
+      "skills-trend.md"
+    ],
+    "skills": [
+      "skills-trend.md"
+    ],
+    "trend": [
+      "skills-trend.md"
+    ],
+    "customer-service": [
+      "customer-service-2026-02-22.md"
+    ],
+    "company": [
+      "customer-service-2026-02-22.md"
+    ],
+    "finance": [
+      "finance-2026-02-22.md"
+    ],
+    "academic": [
+      "academic-learn-2026-02-22.md"
+    ],
+    "moltbook": [
+      "moltbook-learn-2026-02-18.md"
+    ],
+    "issues": [
+      "issues-fixes/"
+    ],
+    "fixes": [
+      "issues-fixes/"
+    ],
+    "debugging": [
+      "issues-fixes/"
+    ]
+  },
+  "toolHealth": {
+    "exec": {
+      "fitness": 97,
+      "status": "healthy"
+    },
+    "gateway": {
+      "fitness": 91,
+      "status": "healthy"
+    },
+    "write": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "cron": {
+      "fitness": 87,
+      "status": "degraded"
+    },
+    "read": {
+      "fitness": 95,
+      "status": "healthy"
+    },
+    "message": {
+      "fitness": 73,
+      "status": "degraded"
+    },
+    "edit": {
+      "fitness": 87,
+      "status": "degraded"
+    },
+    "process": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "browser": {
+      "fitness": 82,
+      "status": "degraded"
+    },
+    "web_search": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "web_fetch": {
+      "fitness": 59,
+      "status": "critical"
+    },
+    "memory_search": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "session_status": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "sessions_list": {
+      "fitness": 78,
+      "status": "degraded"
+    },
+    "nodes": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "memory_get": {
+      "fitness": 100,
+      "status": "healthy"
+    },
+    "sessions_history": {
+      "fitness": 100,
+      "status": "healthy"
+    }
+  },
+  "pendingTasks": [
+    {
+      "file": "active.md",
+      "preview": "# 📋 待办事项 - 进行中  ## 系统维护  - [ ] 修复辉仔Discord连接 (Token失效) - [ ] 配置Telegram Bot - [ ] 清理97个活跃会话  ## 功能开"
+    },
+    {
+      "file": "completed.md",
+      "preview": "# ✅ 已完成任务  ## 2026-02-23  - [x] 安全审计修复 (chmod 600, groupPolicy, plugins.allow) - [x] 删除8个失效cron任务 - "
+    },
+    {
+      "file": "waiting.md",
+      "preview": "# ⏳ 等待中  | 任务 | 等待原因 | 期待解决时间 | |------|----------|--------------| | Telegram配置 | 需要Token | 用户提供 | |"
+    }
+  ]
+}
