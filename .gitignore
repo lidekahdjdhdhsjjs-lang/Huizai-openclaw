@@ -31,3 +31,6 @@ skills/ouroboros/.env
 skills/ouroboros/data/
 .env
 *.key
+memory/对话历史/
+automaton/
+.openclaw/
